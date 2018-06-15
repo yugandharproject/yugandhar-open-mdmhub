@@ -1,0 +1,35 @@
+package com.yugandhar.mdm.extern.dobj;
+/* Generated Oct 27, 2017 5:17:38 PM by Hibernate Tools 5.2.1.Final using Yugandhar custom templates. 
+Generated and to be used in accordance with Yugandhar Licensing Terms. */
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
+import com.yugandhar.mdm.abstractdobj.AbstractRefInactivationReasonDO;
+
+/**
+ * DO class for mapped to database REF_INACTIVATION_REASON entity
+*@author Yugandhar
+*@version 1.0
+*@since 1.0
+*@see AbstractRefInactivationReasonDO
+*/
+
+@Entity
+@Table(name = "REF_INACTIVATION_REASON", uniqueConstraints = @UniqueConstraint(columnNames = {
+		"CONFIG_LANGUAGE_CODE_KEY", "KEY" }))
+public class RefInactivationReasonDO extends AbstractRefInactivationReasonDO {
+
+	/**
+	 *  Any additional attributes in the OOTB entity needs to be added in this class
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public RefInactivationReasonDO() {
+		super();
+	}
+
+	public RefInactivationReasonDO(RefInactivationReasonDO theRefInactivationReasonDO) {
+		super(theRefInactivationReasonDO);
+	}
+}

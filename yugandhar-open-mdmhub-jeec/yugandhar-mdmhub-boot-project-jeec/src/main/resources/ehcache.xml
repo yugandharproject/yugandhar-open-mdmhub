@@ -1,0 +1,442 @@
+<config xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xmlns='http://www.ehcache.org/v3' xmlns:jsr107='http://www.ehcache.org/v3/jsr107'>
+
+	<service>
+		<jsr107:defaults>
+			<jsr107:cache name="CONFIGTXNREGISTRY_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="CONFIGERRORCODEREGISTRY_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFENTITYOBJECTTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFIDENTIFICATIONTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFIMPORTANCETYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFINDUSTRYCODE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFLANGUAGECODE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFLERATING_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFLERELATIONSHIPTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFLEROLETYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFLOBTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFPERSONNAMETYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFPHONESUBTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFPHONETYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFPREFIXNAME_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFPREFERENCETYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFPROPERTYLERELTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFRELATIONSHIPSTATUS_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFSOURCESYSTEM_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFSTATEPROVINCE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFSTATUSINSOURCE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFSTATUSTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFSUFFIXNAME_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFTERMINATIONREASON_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFACCOUNTMDMSTATUS_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFACCOUNTSOURCESTATUS_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFADDRESSSUBTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFADDRESSTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFAGREEMENTTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFASSOCTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFBILLINGMODETYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFBRANCHCODE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFCLASSIFICATIONCODE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFCORPORATIONNAMETYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFCORPORATIONTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFCOUNTRYISO_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFCURRENCY_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFDEACTIVATIONREASON_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFGENDER_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFGROUPSUBTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFGROUPTYPE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFHIGHESTEDUQUAL_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="CONFIGAPPPROPERTIES_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="CONFIGLANGUAGECODE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="CONFIGINQUIRYLEVELS_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="AUTHROLESREGISTRY_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="AUTHUSERREGISTRY_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="AUTHUSERROLEACCESSCONTROL_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="AUTHUSERROLEASSOC_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFMATCHSCORE_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFMATCHTHRESHOLD_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFINACTIVATIONREASON_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFMATCHACTIONSTATUS_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFMATCHPROPOSEDACTION_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFMATCHRESULT_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFMERGEREASON_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFBATCHACTIONSTATUS_BUSKEY" template="heap-cache" />
+			<jsr107:cache name="REFBATCHPROPOSEDACTION_BUSKEY" template="heap-cache" />
+			
+		</jsr107:defaults>
+	</service>
+
+	
+	<cache alias="CONFIGTXNREGISTRY_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="CONFIGERRORCODEREGISTRY_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFENTITYOBJECTTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFIDENTIFICATIONTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFIMPORTANCETYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFINDUSTRYCODE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+		<cache alias="REFLANGUAGECODE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFLERATING_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFLERELATIONSHIPTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFLEROLETYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFLOBTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFPERSONNAMETYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFPERSONTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFPHONESUBTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFPHONETYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFPREFIXNAME_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFPREFERENCETYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+
+	<cache alias="REFPROPERTYLERELTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+		
+	<cache alias="REFRELATIONSHIPSTATUS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFSOURCESYSTEM_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFSTATEPROVINCE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFSTATUSINSOURCE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFSTATUSTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFSUFFIXNAME_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFTERMINATIONREASON_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFACCOUNTMDMSTATUS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFACCOUNTSOURCESTATUS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFADDRESSSUBTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFADDRESSTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFAGREEMENTTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFASSOCTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFBILLINGMODETYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFBRANCHCODE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFCLASSIFICATIONCODE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFCORPORATIONNAMETYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFCORPORATIONTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFCOUNTRYISO_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFCURRENCY_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFDEACTIVATIONREASON_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFGENDER_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFGROUPSUBTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFGROUPTYPE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFHIGHESTEDUQUAL_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="CONFIGAPPPROPERTIES_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="CONFIGLANGUAGECODE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="CONFIGINQUIRYLEVELS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="AUTHROLESREGISTRY_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="AUTHUSERREGISTRY_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="AUTHUSERROLEACCESSCONTROL_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="AUTHUSERROLEASSOC_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFMATCHSCORE_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFMATCHTHRESHOLD_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFINACTIVATIONREASON_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFMATCHACTIONSTATUS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFMATCHPROPOSEDACTION_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFMATCHRESULT_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFMERGEREASON_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFBATCHACTIONSTATUS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache alias="REFBATCHPROPOSEDACTION_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">1296000</ttl>
+		</expiry>
+	</cache>
+	
+	<cache-template name="heap-cache">
+		<listeners>
+			<listener>
+				<class>com.yugandhar.cache.ehcache.eventlogger.EhcacheEventLogger
+				</class>
+				<event-firing-mode>ASYNCHRONOUS</event-firing-mode>
+				<event-ordering-mode>UNORDERED</event-ordering-mode>
+				<events-to-fire-on>CREATED</events-to-fire-on>
+				<events-to-fire-on>UPDATED</events-to-fire-on>
+				<events-to-fire-on>EXPIRED</events-to-fire-on>
+				<events-to-fire-on>REMOVED</events-to-fire-on>
+				<events-to-fire-on>EVICTED</events-to-fire-on>
+			</listener>
+		</listeners>
+		<resources>
+			 <heap unit="entries">2000</heap>
+			<!--  <offheap unit="MB">100</offheap>  unit of measure is case sensitive! -->
+		</resources>
+	</cache-template>
+</config>

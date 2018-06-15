@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration  scan="true">
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date [%thread] [%file:%line] %msg%n </pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="TIME_AND_SIZE_BASED_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharCommon.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      		<fileNamePattern>C:/yugandhar/logs/YugandharCommon.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      		<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        		<maxFileSize>10MB</maxFileSize>
+      		</timeBasedFileNamingAndTriggeringPolicy>
+    	</rollingPolicy>
+    	
+    	<encoder>
+      		<pattern>%date %relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+    	</encoder>
+  	</appender> 	
+
+	<appender name="YUGANDHAR_STDOUT_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharCommonStdOut.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      		<fileNamePattern>C:/yugandhar/logs/YugandharCommonStdOut.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      		<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        		<maxFileSize>10MB</maxFileSize>
+      		</timeBasedFileNamingAndTriggeringPolicy>
+    	</rollingPolicy>
+    	
+    	<encoder>
+      		<pattern>%date %relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+    	</encoder>
+  	</appender> 	
+  	
+	<appender name="PERFORMANCE_LOG_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharPerformanceSummary.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      		<fileNamePattern>C:/yugandhar/logs/YugandharPerformanceSummary.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      		<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        		<maxFileSize>10MB</maxFileSize>
+      		</timeBasedFileNamingAndTriggeringPolicy>
+    	</rollingPolicy>
+    	
+    	<encoder>
+      		<pattern>%date|%relative|%msg%n</pattern>
+      		
+    	</encoder>
+  	</appender> 	
+  	
+  	<appender name="PERFORMANCE_ERROR_LOG_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharPerformanceErrorSummary.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      		<fileNamePattern>C:/yugandhar/logs/YugandharPerformanceErrorSummary.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      		<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        		<maxFileSize>10MB</maxFileSize>
+      		</timeBasedFileNamingAndTriggeringPolicy>
+    	</rollingPolicy>
+    	
+    	<encoder>
+      		<pattern>%date|%relative|%msg%n</pattern>
+      		
+    	</encoder>
+  	</appender> 	
+  	
+  	<appender name="CACHE_LOG_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharCaching.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      		<fileNamePattern>C:/yugandhar/logs/YugandharCaching.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      		<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        		<maxFileSize>10MB</maxFileSize>
+      		</timeBasedFileNamingAndTriggeringPolicy>
+    	</rollingPolicy>
+    	
+    	<encoder>
+      		<pattern>%date %relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+    	</encoder>
+  	</appender> 
+  	
+  	<appender name="YUGANDHAR_MQ_REQRESP_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharMQRequestResponse.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      		<fileNamePattern>C:/yugandhar/logs/YugandharMQRequestResponse.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      		<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        		<maxFileSize>10MB</maxFileSize>
+      		</timeBasedFileNamingAndTriggeringPolicy>
+    	</rollingPolicy>
+    	
+    	<encoder>
+      		<pattern>%date %relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+    	</encoder>
+  	</appender> 
+  	
+  	
+  	<appender name="YUGANDHAR_MATCH_ENGINE_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharMatchEngine.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      		<fileNamePattern>C:/yugandhar/logs/YugandharMatchEngine.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      		<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+        		<maxFileSize>10MB</maxFileSize>
+      		</timeBasedFileNamingAndTriggeringPolicy>
+    	</rollingPolicy>
+    	
+    	<encoder>
+      		<pattern>%date %relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+    	</encoder>
+  	</appender> 
+  	
+  	
+  	<logger name="YugandharPerfSummaryLogger" level="ALL">
+		<appender-ref ref="PERFORMANCE_LOG_APPENDER" />
+	</logger>
+	
+	<logger name="YugandharPerfErrorSummaryLogger" level="ALL">
+		<appender-ref ref="PERFORMANCE_ERROR_LOG_APPENDER" />
+	</logger>
+
+	<logger name="YugandharCommonLogger" level="ALL">
+		<appender-ref ref="TIME_AND_SIZE_BASED_APPENDER" />
+	</logger>
+	
+	<logger name="YugandharCacheLogger" level="ALL">
+		<appender-ref ref="CACHE_LOG_APPENDER" />
+	</logger>
+	
+	<logger name="YugandharMQRequestResponseLogger" level="ALL">
+		<appender-ref ref="YUGANDHAR_MQ_REQRESP_APPENDER" />
+	</logger>
+	
+	<logger name="YugandharMatchEngineLogger" level="ALL">
+		<appender-ref ref="YUGANDHAR_MATCH_ENGINE_APPENDER" />
+	</logger>
+	
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />  
+		<appender-ref ref="YUGANDHAR_STDOUT_APPENDER" /> 
+	</root>
+</configuration>
+
+
+
+<!-- 
+
+Take help from below examples TimeBasedRollingPolicy, FixedWindowRollingPolicy , Size and Time Based Rolling 
+https://examples.javacodegeeks.com/enterprise-java/logback/logback-rollingfileappender-example/
+
+<!-/-  yugandhar Time based logger daily -/->
+	<appender name="YugandharCommonLogger" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>C:/yugandhar/logs/YugandharCommonDaily.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">    	
+      		<!-/- daily rollover -/->
+      		<fileNamePattern>C:/yugandhar/logs/YugandharCommonDaily.%d{yyyy-MM-dd-HH-mm}.log</fileNamePattern>
+      		<maxHistory>30</maxHistory>
+    	</rollingPolicy>
+
+    	<encoder>
+      		<pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+    	</encoder>
+  	</appender>
+  	
+  	<logger name="YugandharCommonLogger" level="ALL">
+		<appender-ref ref="YugandharCommonLogger" />
+	</logger>
+
+ -->

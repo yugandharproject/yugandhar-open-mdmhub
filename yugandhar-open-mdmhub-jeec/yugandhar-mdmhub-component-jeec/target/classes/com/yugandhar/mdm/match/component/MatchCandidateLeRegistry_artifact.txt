@@ -1,0 +1,144 @@
+/* Generated Oct 27, 2017 5:20:01 PM by Hibernate Tools 5.2.1.Final using Yugandhar custom templates. 
+Generated and to be used in accordance with Yugandhar Licensing Terms. */
+
+//This file covers the artifacts.
+// 1. executed the SQLs in database 
+// 2. execute the transaction using sample message generated
+	
+/* insert sqls for transaction registration */
+//----------------------------------------------------
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION, CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+   (YUG_REGISTRY_SEQ.nextval, 0, 'createMatchCandidateLeRegistryBase', 'com.yugandhar.mdm.match.component.MatchCandidateLeRegistryService', 'add', 
+    'create record in the database', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'updateMatchCandidateLeRegistryBase', 'com.yugandhar.mdm.match.component.MatchCandidateLeRegistryService', 'merge', 
+    'update the database record based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+   (YUG_REGISTRY_SEQ.nextval, 0, 'retrieveMatchCandidateLeRegistryBase', 'com.yugandhar.mdm.match.component.MatchCandidateLeRegistryService', 'findById', 
+    'retrieve the record from database based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+COMMIT;
+
+
+/* Sample JSON Messages for test */
+//----------------------------------------------------
+=================================================================
+createMatchCandidateLeRegistryBase sample JSON message
+=================================================================
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createMatchCandidateLeRegistryBase"
+	},
+	"txnPayload": {
+			 "matchCandidateLeRegistryDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"legalentityIdpk": null,
+			"candidateLegalentityidpk": null,
+			"matchPattern": null,
+			"matchProposedActionRefkey": null,
+			"matchActionstatusRefkey": null,
+			"matchPercentageDescription": null,
+      }
+		
+	}
+	
+}
+  
+=================================================================
+updateMatchCandidateLeRegistryBase sample JSON message
+================================================================= 
+  {
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "updateMatchCandidateLeRegistryBase"
+	},
+	"txnPayload": {
+			 "matchCandidateLeRegistryDO":       {
+			 
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"legalentityIdpk": null,
+			"candidateLegalentityidpk": null,
+			"matchPattern": null,
+			"matchProposedActionRefkey": null,
+			"matchActionstatusRefkey": null,
+			"matchPercentageDescription": null,
+      }
+		
+	}
+	
+}
+
+=================================================================
+retrieveMatchCandidateLeRegistryBase sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "retrieveMatchCandidateLeRegistryBase"
+	},
+	"txnPayload": {
+			 "matchCandidateLeRegistryDO":       {
+		"idPk": "1"
+		 
+      }
+		
+	}
+	
+}
+  

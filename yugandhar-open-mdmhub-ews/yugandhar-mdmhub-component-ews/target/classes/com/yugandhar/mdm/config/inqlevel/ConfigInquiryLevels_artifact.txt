@@ -1,0 +1,220 @@
+/* Generated Aug 22, 2017 5:25:47 PM by Hibernate Tools 5.2.1.Final using Yugandhar custom templates. 
+Generated and to be used in accordance with Yugandhar Licensing Terms. */
+
+//This file covers the artifacts.
+// 1. Merge the cache configuration as per instructions
+// 2. executed the SQLs in database 
+// 3. execute the transaction using sample message generated
+
+// Add below block of code in xpath <service><jsr107:defaults> of the /YugandharBootProject/src/main/resources/ehcache.xml
+//----------------------------------------------------
+	<jsr107:cache name="CONFIGINQUIRYLEVELS_BUSKEY" template="heap-cache" />
+
+	
+
+// Add below block of code in xpath <Config> of the /YugandharBootProject/src/main/resources/ehcache.xml
+//----------------------------------------------------
+	<cache alias="CONFIGINQUIRYLEVELS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">30</ttl>
+		</expiry>
+	</cache>
+	
+	
+/* insert sqls for transaction registration */
+//----------------------------------------------------
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION, CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'createConfigInquiryLevelsBase', 'com.yugandhar.mdm.config.inqlevel.ConfigInquiryLevelsService', 'add', 
+    'find by business key method search properties based on transaction Name', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'updateConfigInquiryLevelsBase', 'com.yugandhar.mdm.config.inqlevel.ConfigInquiryLevelsService', 'merge', 
+    'find by business key method search properties based on transaction Name', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'retrieveConfigInquiryLevelsBase', 'com.yugandhar.mdm.config.inqlevel.ConfigInquiryLevelsService', 'findById', 
+    'find by business key method search properties based on transaction Name', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'findConfigInquiryLevelsByBusinessKey', 'com.yugandhar.mdm.config.inqlevel.ConfigInquiryLevelsService', 'findByBusinessKey', 
+    'find by business key method search properties based on transaction Name',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'findAllConfigInquiryLevelsByLanguageCode', 'com.yugandhar.mdm.config.inqlevel.ConfigInquiryLevelsService', 'findAllRecordsByLanguageCode', 
+    'find All records by language code',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+	
+COMMIT;
+
+
+
+
+/* Sample JSON Messages for test */
+//----------------------------------------------------
+=================================================================
+createConfigInquiryLevelsBase sample JSON message
+=================================================================
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createConfigInquiryLevelsBase"
+	},
+	"txnPayload": {
+			 "configInquiryLevelsDO":        {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"inquiryLevel": null,
+			"applicableDobj": null,
+			"childDobj": null,
+			"description": null,
+      }
+		
+	}
+	
+}
+  
+=================================================================
+updateConfigInquiryLevelsBase sample JSON message
+================================================================= 
+  {
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "updateConfigInquiryLevelsBase"
+	},
+	"txnPayload": {
+			 "configInquiryLevelsDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"inquiryLevel": null,
+			"applicableDobj": null,
+			"childDobj": null,
+			"description": null,
+      }
+		
+	}
+	
+}
+
+=================================================================
+retrieveConfigInquiryLevelsBase sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "retrieveConfigInquiryLevelsBase"
+	},
+	"txnPayload": {
+			 "configInquiryLevelsDO":        {
+         "idPk": "1"
+		 
+      }
+		
+	}
+	
+}
+  
+=================================================================
+findConfigInquiryLevelsByBusinessKey sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "findConfigInquiryLevelsByBusinessKey"
+	},
+	"txnPayload": {
+			 "configInquiryLevelsDO":       {
+		"configLanguageCodeKey": "1",
+         "key": "ACTIVE"
+      }
+		
+	}
+	
+}
+  
+======================================================================
+findAllConfigInquiryLevelsByLanguageCode sample JSON message
+======================================================================
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+		"userName": "Rakesh9",
+		"userRole": "admin9",
+		"txnMessageId": "12312311115999",
+		"transactionServiceName": "findAllRefEntityObjectTypeByLanguageCode"
+	},
+	"txnPayload": {
+			"configInquiryLevelsDO":        {
+		"configLanguageCodeKey": "1"
+      }
+		
+	}
+	
+}
+  
+  

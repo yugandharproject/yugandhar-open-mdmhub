@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+<hibernate-reverse-engineering>
+	<type-mapping>
+		<sql-type jdbc-type="NUMERIC" hibernate-type="integer"
+			precision="22" not-null="true">
+		</sql-type>
+		<sql-type jdbc-type="NUMERIC" hibernate-type="integer"
+			precision="22" not-null="false">
+		</sql-type>
+		<sql-type jdbc-type="OTHER" hibernate-type="timestamp"
+			length="26" not-null="true">
+		</sql-type>
+		<sql-type jdbc-type="OTHER" hibernate-type="timestamp"
+			length="26" not-null="false">
+		</sql-type>
+	</type-mapping>
+	<table-filter match-name="FACILITYDEMO" match-schema="YUG_OWNER"></table-filter>
+
+
+</hibernate-reverse-engineering>

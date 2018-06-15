@@ -1,0 +1,222 @@
+/* Generated Dec 12, 2017 6:26:11 PM by Hibernate Tools 5.2.1.Final using Yugandhar custom templates. 
+Generated and to be used in accordance with Yugandhar Licensing Terms. */
+
+//This file covers the artifacts.
+// 1. Merge the cache configuration as per instructions
+// 2. executed the SQLs in database 
+// 3. execute the transaction using sample message generated
+
+// Add below block of code in xpath <service><jsr107:defaults> of the /YugandharBootProject/src/main/resources/ehcache.xml
+//----------------------------------------------------
+	<jsr107:cache name="REFBATCHACTIONSTATUS_BUSKEY" template="heap-cache" />
+
+	
+
+// Add below block of code in xpath <Config> of the /YugandharBootProject/src/main/resources/ehcache.xml
+//----------------------------------------------------
+	<cache alias="REFBATCHACTIONSTATUS_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">30</ttl>
+		</expiry>
+	</cache>
+	
+	
+/* insert sqls for transaction registration */
+//----------------------------------------------------
+Insert into CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION, CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'createRefBatchActionStatusBase', 'com.yugandhar.mdm.batch.componentref.RefBatchActionStatusService', 'add', 
+    'create record in the database', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+Insert into CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'updateRefBatchActionStatusBase', 'com.yugandhar.mdm.batch.componentref.RefBatchActionStatusService', 'merge', 
+    'update the database record based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+Insert into CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'retrieveRefBatchActionStatusBase', 'com.yugandhar.mdm.batch.componentref.RefBatchActionStatusService', 'findById', 
+    'retrieve the record from database based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+
+Insert into CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'findRefBatchActionStatusByBusinessKeyBase', 'com.yugandhar.mdm.batch.componentref.RefBatchActionStatusService', 'findByBusinessKey', 
+    'find the unique record from dababase based on by business key',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+
+Insert into CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'findAllRefBatchActionStatusByLanguageCodeBase', 'com.yugandhar.mdm.batch.componentref.RefBatchActionStatusService', 'findAllRecordsByLanguageCode', 
+    'find All records by language code',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+	
+COMMIT;
+
+
+
+
+/* Sample JSON Messages for test */
+//----------------------------------------------------
+=================================================================
+createRefBatchActionStatusBase sample JSON message
+=================================================================
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createRefBatchActionStatusBase"
+	},
+	"txnPayload": {
+			 "refBatchActionStatusDO":        {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"configLanguageCodeKey": null,
+			"key": null,
+			"value": null,
+			"description": null,
+      }
+		
+	}
+	
+}
+  
+=================================================================
+updateRefBatchActionStatusBase sample JSON message
+================================================================= 
+  {
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "updateRefBatchActionStatusBase"
+	},
+	"txnPayload": {
+			 "refBatchActionStatusDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"configLanguageCodeKey": null,
+			"key": null,
+			"value": null,
+			"description": null,
+      }
+		
+	}
+	
+}
+
+=================================================================
+retrieveRefBatchActionStatusBase sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "retrieveRefBatchActionStatusBase"
+	},
+	"txnPayload": {
+			 "refBatchActionStatusDO":        {
+         "idPk": "1"
+		 
+      }
+		
+	}
+	
+}
+  
+=================================================================
+findRefBatchActionStatusByBusinessKey sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "findRefBatchActionStatusByBusinessKeyBase"
+	},
+	"txnPayload": {
+			 "refBatchActionStatusDO":       {
+		"configLanguageCodeKey": "1",
+         "key": "ACTIVE"
+      }
+		
+	}
+	
+}
+  
+======================================================================
+findAllRefBatchActionStatusByLanguageCode sample JSON message
+======================================================================
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+		"userName": "Rakesh9",
+		"userRole": "admin9",
+		"txnMessageId": "12312311115999",
+		"transactionServiceName": "findAllRefBatchActionStatusByLanguageCodeBase"
+	},
+	"txnPayload": {
+		"paginationIndexOfCurrentSlice": 0,
+		"paginationPageSize": 25, 
+			"refBatchActionStatusDO":        {
+		"configLanguageCodeKey": "1"
+      }
+		
+	}
+	
+}
+  
+  

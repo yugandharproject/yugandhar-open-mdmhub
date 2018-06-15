@@ -1,0 +1,226 @@
+/* Generated Oct 27, 2017 5:17:39 PM by Hibernate Tools 5.2.1.Final using Yugandhar custom templates. 
+Generated and to be used in accordance with Yugandhar Licensing Terms. */
+
+//This file covers the artifacts.
+// 1. Merge the cache configuration as per instructions
+// 2. executed the SQLs in database 
+// 3. execute the transaction using sample message generated
+
+// Add below block of code in xpath <service><jsr107:defaults> of the /YugandharBootProject/src/main/resources/ehcache.xml
+//----------------------------------------------------
+	<jsr107:cache name="REFMATCHTHRESHOLD_BUSKEY" template="heap-cache" />
+
+	
+
+// Add below block of code in xpath <Config> of the /YugandharBootProject/src/main/resources/ehcache.xml
+//----------------------------------------------------
+	<cache alias="REFMATCHTHRESHOLD_BUSKEY" uses-template="heap-cache" >
+		<expiry>
+			<ttl unit="seconds">30</ttl>
+		</expiry>
+	</cache>
+	
+	
+/* insert sqls for transaction registration */
+//----------------------------------------------------
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION, CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'createRefMatchThresholdBase', 'com.yugandhar.mdm.match.componentref.RefMatchThresholdService', 'add', 
+    'create record in the database', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'updateRefMatchThresholdBase', 'com.yugandhar.mdm.match.componentref.RefMatchThresholdService', 'merge', 
+    'update the database record based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'retrieveRefMatchThresholdBase', 'com.yugandhar.mdm.match.componentref.RefMatchThresholdService', 'findById', 
+    'retrieve the record from database based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'findRefMatchThresholdByBusinessKeyBase', 'com.yugandhar.mdm.match.componentref.RefMatchThresholdService', 'findByBusinessKey', 
+    'find the unique record from dababase based on by business key',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'findAllRefMatchThresholdBase', 'com.yugandhar.mdm.match.componentref.RefMatchThresholdService', 'findAllRecordsByLanguageCode', 
+    'find All records by language code',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+	
+COMMIT;
+
+
+
+
+/* Sample JSON Messages for test */
+//----------------------------------------------------
+=================================================================
+createRefMatchThresholdBase sample JSON message
+=================================================================
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createRefMatchThresholdBase"
+	},
+	"txnPayload": {
+			 "refMatchThresholdDO":        {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"configLanguageCodeKey": null,
+			"attrBlockName": null,
+			"matchThreshold": null,
+			"decayThresholdInDays": null,
+			"decayPercentage": null,
+			"maxDecayPercentage": null,
+      }
+		
+	}
+	
+}
+  
+=================================================================
+updateRefMatchThresholdBase sample JSON message
+================================================================= 
+  {
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "updateRefMatchThresholdBase"
+	},
+	"txnPayload": {
+			 "refMatchThresholdDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"configLanguageCodeKey": null,
+			"attrBlockName": null,
+			"matchThreshold": null,
+			"decayThresholdInDays": null,
+			"decayPercentage": null,
+			"maxDecayPercentage": null,
+      }
+		
+	}
+	
+}
+
+=================================================================
+retrieveRefMatchThresholdBase sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "retrieveRefMatchThresholdBase"
+	},
+	"txnPayload": {
+			 "refMatchThresholdDO":        {
+         "idPk": "1"
+		 
+      }
+		
+	}
+	
+}
+  
+=================================================================
+findRefMatchThresholdByBusinessKey sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "findRefMatchThresholdByBusinessKeyBase"
+	},
+	"txnPayload": {
+			 "refMatchThresholdDO":       {
+		"configLanguageCodeKey": "1",
+         "key": "ACTIVE"
+      }
+		
+	}
+	
+}
+  
+======================================================================
+findAllRefMatchThresholdByLanguageCode sample JSON message
+======================================================================
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+		"userName": "Rakesh9",
+		"userRole": "admin9",
+		"txnMessageId": "12312311115999",
+		"transactionServiceName": "findAllRefMatchThresholdByLanguageCodeBase"
+	},
+	"txnPayload": {
+		"paginationIndexOfCurrentSlice": 0,
+		"paginationPageSize": 25, 
+			"refMatchThresholdDO":        {
+		"configLanguageCodeKey": "1"
+      }
+		
+	}
+	
+}
+  
+  

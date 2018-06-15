@@ -1,0 +1,148 @@
+/* Generated Dec 13, 2017 12:32:48 PM by Hibernate Tools 5.2.1.Final using Yugandhar custom templates. 
+Generated and to be used in accordance with Yugandhar Licensing Terms. */
+
+//This file covers the artifacts.
+// 1. executed the SQLs in database 
+// 2. execute the transaction using sample message generated
+	
+/* insert sqls for transaction registration */
+//----------------------------------------------------
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION, CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+   (YUG_REGISTRY_SEQ.nextval, 0, 'createBatchEntityToProcessBase', 'com.yugandhar.mdm.batch.component.BatchEntityToProcessService', 'add', 
+    'create record in the database', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP, 'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+    (YUG_REGISTRY_SEQ.nextval, 0, 'updateBatchEntityToProcessBase', 'com.yugandhar.mdm.batch.component.BatchEntityToProcessService', 'merge', 
+    'update the database record based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+
+
+Insert into <SCHEMA_NAME>.CONFIG_TXN_REGISTRY
+   (ID_PK, VERSION, TXNSERVICE_NAME, TXNSERVICE_CLASS, TXNSERVICE_CLASSMETHOD, DESCRIPTION,CREATED_TS, UPDATED_TS, UPDATED_BY_USER, UPDATED_TXN_REF_ID)
+ Values
+   (YUG_REGISTRY_SEQ.nextval, 0, 'retrieveBatchEntityToProcessBase', 'com.yugandhar.mdm.batch.component.BatchEntityToProcessService', 'findById', 
+    'retrieve the record from database based on primary key i.e. idpk', CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Generator', '000000000');
+COMMIT;
+
+
+/* Sample JSON Messages for test */
+//----------------------------------------------------
+=================================================================
+createBatchEntityToProcessBase sample JSON message
+=================================================================
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createBatchEntityToProcessBase"
+	},
+	"txnPayload": {
+			 "batchEntityToProcessDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"entityObjectTypeRefkey": null,
+			"entityIdpk": null,
+			"batchProposedActionRefkey": null,
+			"batchActionStatusRefkey": null,
+			"processAfterTimestamp": null,
+			"processBeforeTimestamp": null,
+			"entryMadeBySubsystemName": null,
+			"comments": null,
+      }
+		
+	}
+	
+}
+  
+=================================================================
+updateBatchEntityToProcessBase sample JSON message
+================================================================= 
+  {
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+		"transactionServiceName": "updateBatchEntityToProcessBase"
+	},
+	"txnPayload": {
+			 "batchEntityToProcessDO":       {
+			 
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"entityObjectTypeRefkey": null,
+			"entityIdpk": null,
+			"batchProposedActionRefkey": null,
+			"batchActionStatusRefkey": null,
+			"processAfterTimestamp": null,
+			"processBeforeTimestamp": null,
+			"entryMadeBySubsystemName": null,
+			"comments": null,
+      }
+		
+	}
+	
+}
+
+=================================================================
+retrieveBatchEntityToProcessBase sample JSON message
+================================================================= 
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "retrieveBatchEntityToProcessBase"
+	},
+	"txnPayload": {
+			 "batchEntityToProcessDO":       {
+		"idPk": "1"
+		 
+      }
+		
+	}
+	
+}
+  

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.mariadb.jdbc.Driver</property>
+        <property name="hibernate.connection.password">YUG_OWNER</property>
+        <property name="hibernate.connection.url">jdbc:mariadb://localhost:3306/YUG_OWNER?pinGlobalTxToPhysicalConnection=true</property>
+        <property name="hibernate.connection.username">YUG_OWNER</property>
+        <property name="hibernate.default_catalog">YUG_OWNER</property>
+        <property name="hibernate.default_schema">YUG_OWNER</property>
+    </session-factory>
+</hibernate-configuration>

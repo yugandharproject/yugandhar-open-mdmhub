@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.hibernate.eclipse.launch.CodeGenerationLaunchConfigurationType">
+<stringAttribute key="org.hibernate.tools.configurationname" value="hibernateOracleDB"/>
+<booleanAttribute key="org.hibernate.tools.ejb3" value="true"/>
+<listAttribute key="org.hibernate.tools.exporters">
+<listEntry value="1"/>
+<listEntry value="2"/>
+<listEntry value="8"/>
+<listEntry value="9"/>
+<listEntry value="10"/>
+<listEntry value="11"/>
+<listEntry value="12"/>
+</listAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.1" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.1.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.1.properties">
+<mapEntry key="file_pattern" value="{package-name}/Abstract{class-name}DO.java"/>
+<mapEntry key="outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<mapEntry key="template_name" value="AbstractDOGenerator.ftl"/>
+<mapEntry key="template_path" value="\yugandhar-mdm-codegenerator\freemarker-templates"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.10" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.10.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.10.properties">
+<mapEntry key="file_pattern" value="{package-name}/{class-name}Repository.java"/>
+<mapEntry key="outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<mapEntry key="template_name" value="RepositoryGenerator_ref.ftl"/>
+<mapEntry key="template_path" value="\yugandhar-mdm-codegenerator\freemarker-templates"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.11" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.11.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.11.properties">
+<mapEntry key="file_pattern" value="{package-name}/{class-name}ComponentRule.java"/>
+<mapEntry key="outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<mapEntry key="template_name" value="RuleGenerator_ref.ftl"/>
+<mapEntry key="template_path" value="\yugandhar-mdm-codegenerator\freemarker-templates"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.12" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.12.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.12.properties">
+<mapEntry key="file_pattern" value="{package-name}/{class-name}_artifacts_ref.txt"/>
+<mapEntry key="outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<mapEntry key="template_name" value="artifacts_ref.ftl"/>
+<mapEntry key="template_path" value="\yugandhar-mdm-codegenerator\freemarker-templates"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.2" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.2.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.2.properties">
+<mapEntry key="file_pattern" value="{package-name}/{class-name}DO.java"/>
+<mapEntry key="outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<mapEntry key="template_name" value="DOGenerator.ftl"/>
+<mapEntry key="template_path" value="\yugandhar-mdm-codegenerator\freemarker-templates"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.8" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.8.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.8.properties">
+<mapEntry key="file_pattern" value="{package-name}/{class-name}Service.java"/>
+<mapEntry key="outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<mapEntry key="template_name" value="ServiceGenerator_ref.ftl"/>
+<mapEntry key="template_path" value="\yugandhar-mdm-codegenerator\freemarker-templates"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.exporters.9" value="true"/>
+<stringAttribute key="org.hibernate.tools.exporters.9.extension_id" value="org.hibernate.tools.hbmtemplate"/>
+<mapAttribute key="org.hibernate.tools.exporters.9.properties">
+<mapEntry key="file_pattern" value="{package-name}/{class-name}Component.java"/>
+<mapEntry key="outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<mapEntry key="template_name" value="ComponentGenerator_ref.ftl"/>
+<mapEntry key="template_path" value="\yugandhar-mdm-codegenerator\freemarker-templates"/>
+</mapAttribute>
+<booleanAttribute key="org.hibernate.tools.jdk5" value="false"/>
+<stringAttribute key="org.hibernate.tools.outputdir" value="\yugandhar-mdm-codegenerator\src"/>
+<stringAttribute key="org.hibernate.tools.package" value="com.demo.facility"/>
+<booleanAttribute key="org.hibernate.tools.prefercompositeids" value="true"/>
+<stringAttribute key="org.hibernate.tools.revEngFile" value="\yugandhar-mdm-codegenerator\hibernate\yugmdm-ref-oracle.reveng.xml"/>
+<booleanAttribute key="org.hibernate.tools.reveng.detect_many_to_many" value="false"/>
+<booleanAttribute key="org.hibernate.tools.reveng.detect_one_to_one" value="true"/>
+<booleanAttribute key="org.hibernate.tools.reveng.detect_optimistc_lock" value="true"/>
+<booleanAttribute key="org.hibernate.tools.schema2hbm" value="true"/>
+<booleanAttribute key="org.hibernate.tools.useExternalProcess" value="false"/>
+<booleanAttribute key="org.hibernate.tools.useOwnTemplates" value="false"/>
+</launchConfiguration>
