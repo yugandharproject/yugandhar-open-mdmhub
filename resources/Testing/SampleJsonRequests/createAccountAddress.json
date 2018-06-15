@@ -1,0 +1,60 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createAccountAddress"
+	},
+	"txnPayload": {
+			 "accountAddressAssocDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"accountIdpk": "8adeaebc-6872-4cc3-a8af-314a76ad0956",
+			"addressIdpk": null,
+			"addressTypeRefkey": "1",
+			"addressSubtypeRefkey": "1",
+			"preferredFlag": "Y",
+			"solicitationFlag": "Y",
+			"addressDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"addressLineOne": "Test Address Line1",
+			"addressLineTwo": "Test Address Line2",
+			"addressLineThree": null,
+			"addressLineFour": null,
+			"streetNumber": null,
+			"streetName": null,
+			"houseNumber": null,
+			"buildingNumber": null,
+			"county": null,
+			"city": "Pune",
+			"districtZone": null,
+			"stateProvinceRefkey": null,
+			"countryRefkey": "1",
+			"postalCode": "111222",
+			"nearestLandmark": null,
+			"boxDesignator": null,
+			"boxIdentifier": null,
+			"nearestRailwayStation": null,
+			"nearestAirport": null
+      }
+	}
+	}
+	
+}

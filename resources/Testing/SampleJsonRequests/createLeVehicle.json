@@ -1,0 +1,43 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createLeVehicle"
+	},
+	"txnPayload": {
+			 "leVehicleAssocDO":       {
+			"legalentityIdpk": "a55c371e-59cb-4066-bb8a-687e153559de",
+			"leRoletypeRefkey": "1",
+			"accountIdpk": "1",
+			"roleActivationDate": null,
+			"roleDeactivationDate": null,
+			"deactivationReasonRefkey": null,
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": "test",
+			 "vehicleDO":       {
+			"vinNumber": "MH12LSKDHJFDLDKFHJ",
+			"chassisNumber": "121242834792387498327494",
+			"make": "HONDA",
+			"model": "CITY",
+			"year": "1984",
+			"interiorColor": null,
+			"exteriorColor": null,
+			"registrationNumber": null,
+			"countryOfRegistrationRefkey": null,
+			"insuranceIssuedBy": null,
+			"insuranceIssuedDate": null,
+			"insuranceExpiryDate": null
+      }
+      }
+		
+	}
+	
+}
+  

@@ -1,0 +1,22 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateRefMatchThresholdBase"
+   },
+   "txnPayload": {"refMatchThresholdDO":    {
+      "idPk": "5e6f08ef-0e6b-4e3f-912c-eee045dd30b9",
+      "version": 0,
+      "createdTs": "2017-10-30T12.12.28.827+0000",
+      "updatedTs": "2017-10-30T12.12.28.827+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "attrBlockName": "PERSON.TEST",
+      "matchThreshold": 80,
+      "decayThresholdInDays": 1,
+      "decayPercentage": 0.022222,
+      "maxDecayPercentage": 20
+   }}
+}

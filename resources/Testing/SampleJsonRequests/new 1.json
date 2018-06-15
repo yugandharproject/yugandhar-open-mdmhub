@@ -1,0 +1,15 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "findRefMatchScoreByBusinessKeyBase"
+   },
+   "txnPayload": {"refMatchScoreDO":    {
+      "matchEntityObjectName": "PERSON",
+      "matchAttrPattern": "YYNYNYYN",
+      "matchResultRefkey": "1",
+      "matchProposedActionRefkey": "1"
+   }}
+}

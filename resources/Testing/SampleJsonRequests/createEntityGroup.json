@@ -1,0 +1,32 @@
+{
+   
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "createEntityGroup"
+   },
+   "txnPayload": {
+   	"entityGroupDO":       {
+			"groupTypeRefkey": "1",
+			"groupSubtypeRefkey": "1",
+			"groupName": "Test Group",
+			"description": "Test Group desc",
+			"entityGroupAssocDOList":       [{
+				"entityObjectTypeRefkey": "3",
+				"entityIdpk": "111",
+				"entityGroupIdpk": null,
+				"assocTypeRefkey": "1",
+				"description": "Test"
+      },
+      {
+				"entityObjectTypeRefkey": "3",
+				"entityIdpk": "112",
+				"entityGroupIdpk": null,
+				"assocTypeRefkey": "1",
+				"description": "Test1"
+      }]
+      }
+   	}
+}

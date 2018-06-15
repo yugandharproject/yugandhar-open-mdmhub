@@ -1,0 +1,23 @@
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "findAllLePhoneByLegalEntityId"
+	},
+	"txnPayload": {
+		      "paginationIndexOfCurrentSlice": 0,
+			 "lePhoneAssocDO":       {
+			 	"legalentityIdpk": "77776663666777799ad"
+			
+      }
+      }
+		
+	}

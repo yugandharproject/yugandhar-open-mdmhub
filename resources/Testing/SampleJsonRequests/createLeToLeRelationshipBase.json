@@ -1,0 +1,16 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "createLeToLeRelationshipBase"
+   },
+   "txnPayload": {"leToLeRelationshipDO":    {
+      "fromLegalentityIdpk": "66666",
+      "toLegalentityIdpk": "111111111666611111",
+      "leRelationshipTypeRefkey": "1",
+      "relationshipStatusRefkey": "1",
+      "relationshipDescription": "Test"
+   }}
+}

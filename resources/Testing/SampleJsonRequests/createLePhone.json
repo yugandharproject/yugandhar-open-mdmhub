@@ -1,0 +1,33 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createLePhone"
+	},
+	"txnPayload": {
+			 "lePhoneAssocDO":       {
+			"legalentityIdpk": "d7e0f535-cdc8-4df4-8c59-d4ac1ec94e8d",
+			"phoneTypeRefkey": "10",
+			"phoneSubtypeRefkey": "10",
+			"preferredFlag": "1",
+			"phoneNumber": "1",
+			"phoneStandardizedIdpk": null,
+			"phoneStandardizedDO":       {
+			"ituCountryCallingCode": "01",
+			"areaCode": "20",
+			"exchange": "724",
+			"phoneNumber": "66226622",
+			"extension": "31547"
+      }
+      }
+		
+	}
+	
+}

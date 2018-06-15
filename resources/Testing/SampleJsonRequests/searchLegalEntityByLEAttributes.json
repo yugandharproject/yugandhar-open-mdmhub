@@ -1,0 +1,37 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "searchLegalEntityByLEAttributes"
+	},
+	"txnPayload": {
+	 "paginationIndexOfCurrentSlice":0,
+      "paginationPageSize": 100,	
+      	 "searchLegalEntityRequestDO":       {
+			"displayName": "%SURESH",
+"personNameOne": "%Name",
+"personLastName": "Last",
+"corporationName": null,
+"addressLineOne": "Line1",
+"addressLineTwo": "Line2",
+"city": "Pune",
+"stateProvinceRefkey": "1",
+"countryRefkey": "1",
+"postalCode": "1",
+"identificationTypeRefkey": "1",
+"identificationNumber":"%111%",
+"phoneNumber": "1",
+"systemKeysRegistryReferenceId": "1",
+"inquiryFilter":"ACTIVE",
+"inquiryLevel": null
+	}
+}
+}
+	

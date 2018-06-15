@@ -1,0 +1,23 @@
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "findAllAccountPhoneAssocByAccountId"
+	},
+	"txnPayload": {
+		"paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 25,
+			 "accountPhoneAssocDO":       {
+			"accountIdpk": "d991d6e2-d491-4ecd-9984-7d2abbb5fa84"
+      }
+      }
+		
+	}

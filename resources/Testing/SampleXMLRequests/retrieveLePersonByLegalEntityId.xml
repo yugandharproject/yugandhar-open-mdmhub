@@ -1,0 +1,21 @@
+<txnTransferObj>
+	<txnHeader>
+	 <requesterLanguage>1</requesterLanguage>
+      <requesterLocale/>
+      <userName>admin</userName>
+      <userRole>admin</userRole>
+      <accessToken/>
+      <txnCorrelationId/>
+      <txnMessageId>1234567890123</txnMessageId>
+      <requestOriginSource/>
+      <requesterSystem/>
+	  <transactionServiceName>retrieveLePersonByLegalEntityId</transactionServiceName>
+	</txnHeader>
+	<txnPayload>
+			<lePersonDO>
+			<legalentityIdpk>77776663666AAAA214</legalentityIdpk>
+			<inquiryFilter>ACTIVE</inquiryFilter>
+			</lePersonDO>
+	</txnPayload>
+</txnTransferObj>
+	

@@ -1,0 +1,24 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "retrieveLeCorporationByLegalEntityId"
+	},
+	"txnPayload": {
+	"paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 10,	
+      	 "leCorporationDO":       {
+			"legalentityIdpk": "669fe2f1-13cf-1111-a2a5-abcdee92ce03",
+			"inquiryFilter":"ACTIVE"
+
+	}
+}
+}
+	

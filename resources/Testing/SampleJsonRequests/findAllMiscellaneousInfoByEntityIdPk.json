@@ -1,0 +1,146 @@
+{
+   
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateLeAccount"
+   },
+   "txnPayload": {"leAccountAssocDO":    {
+      "idPk": "69e9029f-b518-4ab9-8763-744bafea865e",
+      "version": 0,
+      "createdTs": "2017-07-26T09.27.12.063+0000",
+      "updatedTs": "2017-07-26T09.27.12.063+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "legalentityIdpk": "0da51057-a69f-40ee-8508-29a48168e5c9",
+      "leRoletypeRefkey": "1",
+      "accountIdpk": "c8cfd38b-2a38-43f3-afcb-5d86ce5bdd08",
+      "deactivationReasonRefkey": "1",
+      "accountDO":       {
+         "idPk": "c8cfd38b-2a38-43f3-afcb-5d86ce5bdd08",
+         "version": 0,
+         "createdTs": "2017-07-26T09.27.11.949+0000",
+         "updatedTs": "2017-07-26T09.27.11.949+0000",
+         "updatedByUser": "admin",
+         "updatedByTxnId": "1234567890123",
+         "contractSignedLangRefkey": "1",
+         "currencyRefkey": "12",
+         "billingModeTypeRefkey": "1",
+         "accountName": "Test",
+         "accountAddressAssocDOList":          [
+                        {
+               "idPk": "404674c6-335a-43f0-a006-93703da85044",
+               "version": 0,
+               "createdTs": "2017-07-26T09.27.11.982+0000",
+               "updatedTs": "2017-07-26T09.27.11.982+0000",
+               "updatedByUser": "admin",
+               "updatedByTxnId": "1234567890123",
+               "accountIdpk": "c8cfd38b-2a38-43f3-afcb-5d86ce5bdd08",
+               "addressIdpk": "1b08b7fc-398e-4576-b50d-52be65b4d43a",
+               "addressTypeRefkey": "1",
+               "addressSubtypeRefkey": "1",
+               "preferredFlag": "Y",
+               "solicitationFlag": "Y",
+               "addressDO":                {
+                  "idPk": "1b08b7fc-398e-4576-b50d-52be65b4d43a",
+                  "version": 0,
+                  "createdTs": "2017-07-26T09.27.11.969+0000",
+                  "updatedTs": "2017-07-26T09.27.11.969+0000",
+                  "updatedByUser": "admin",
+                  "updatedByTxnId": "1234567890123",
+                  "addressLineOne": "Test Address Line1",
+                  "addressLineTwo": "Test Address Line2",
+                  "city": "Pune",
+                  "countryRefkey": "1",
+                  "postalCode": "111222"
+               }
+            },
+                        {
+               "idPk": "df08da67-a61d-49d7-956e-950da180732e",
+               "version": 0,
+               "createdTs": "2017-07-26T09.27.11.998+0000",
+               "updatedTs": "2017-07-26T09.27.11.998+0000",
+               "updatedByUser": "admin",
+               "updatedByTxnId": "1234567890123",
+               "accountIdpk": "c8cfd38b-2a38-43f3-afcb-5d86ce5bdd08",
+               "addressIdpk": "69b66281-fa02-43d9-8f5c-f27f36a14f38",
+               "addressTypeRefkey": "2",
+               "addressSubtypeRefkey": "2",
+               "preferredFlag": "Y",
+               "solicitationFlag": "Y",
+               "addressDO":                {
+                  "idPk": "69b66281-fa02-43d9-8f5c-f27f36a14f38",
+                  "version": 0,
+                  "createdTs": "2017-07-26T09.27.11.990+0000",
+                  "updatedTs": "2017-07-26T09.27.11.990+0000",
+                  "updatedByUser": "admin",
+                  "updatedByTxnId": "1234567890123",
+                  "addressLineOne": "Test Address Line1",
+                  "addressLineTwo": "Test Address Line2",
+                  "city": "Pune",
+                  "countryRefkey": "1",
+                  "postalCode": "111222"
+               }
+            }
+         ],
+         "accountPhoneAssocDOList":          [
+                        {
+               "idPk": "5c497d8c-5b6c-4682-b26f-04e539416eb8",
+               "version": 0,
+               "createdTs": "2017-07-26T09.27.12.011+0000",
+               "updatedTs": "2017-07-26T09.27.12.011+0000",
+               "updatedByUser": "admin",
+               "updatedByTxnId": "1234567890123",
+               "accountIdpk": "c8cfd38b-2a38-43f3-afcb-5d86ce5bdd08",
+               "phoneTypeRefkey": "1",
+               "phoneSubtypeRefkey": "1",
+               "preferredFlag": "Y",
+               "phoneNumber": "12321123213",
+               "phoneStandardizedIdpk": "fe8b3017-9127-4fdf-9aa5-a864d1cb58fc",
+               "phoneStandardizedDO":                {
+                  "idPk": "fe8b3017-9127-4fdf-9aa5-a864d1cb58fc",
+                  "version": 0,
+                  "createdTs": "2017-07-26T09.27.12.007+0000",
+                  "updatedTs": "2017-07-26T09.27.12.007+0000",
+                  "updatedByUser": "admin",
+                  "updatedByTxnId": "1234567890123",
+                  "ituCountryCallingCode": "01",
+                  "areaCode": "20",
+                  "exchange": "724",
+                  "phoneNumber": "66226622",
+                  "extension": "31547"
+               }
+            },
+                        {
+               "idPk": "88acfee0-6b68-4c01-9477-9a830f377d27",
+               "version": 0,
+               "createdTs": "2017-07-26T09.27.12.056+0000",
+               "updatedTs": "2017-07-26T09.27.12.056+0000",
+               "updatedByUser": "admin",
+               "updatedByTxnId": "1234567890123",
+               "accountIdpk": "c8cfd38b-2a38-43f3-afcb-5d86ce5bdd08",
+               "phoneTypeRefkey": "2",
+               "phoneSubtypeRefkey": "2",
+               "preferredFlag": "Y",
+               "phoneNumber": "12321123213",
+               "phoneStandardizedIdpk": "6dca1805-fc98-41b4-af86-13e5bf282fe6",
+               "phoneStandardizedDO":                {
+                  "idPk": "6dca1805-fc98-41b4-af86-13e5bf282fe6",
+                  "version": 0,
+                  "createdTs": "2017-07-26T09.27.12.019+0000",
+                  "updatedTs": "2017-07-26T09.27.12.019+0000",
+                  "updatedByUser": "admin",
+                  "updatedByTxnId": "1234567890123",
+                  "ituCountryCallingCode": "01",
+                  "areaCode": "20",
+                  "exchange": "724",
+                  "phoneNumber": "66226622",
+                  "extension": "31547"
+               }
+            }
+         ]
+      }
+   }}
+}

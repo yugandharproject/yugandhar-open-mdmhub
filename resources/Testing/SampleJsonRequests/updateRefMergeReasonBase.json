@@ -1,0 +1,21 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateRefMergeReasonBase"
+   },
+   "txnPayload": {"refMergeReasonDO":    {
+      "idPk": "fea4a6dc-40f8-47ff-aa11-0a76f57e50a1",
+      "version": 0,
+      "createdTs": "2017-10-30T11.51.08.559+0000",
+      "updatedTs": "2017-10-30T11.51.08.559+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "configLanguageCodeKey": "1",
+      "key": "2",
+      "value": "MERGED_AFTER_REVIEW",
+      "description": "MERGED_AFTER_REVIEW"
+   }}
+}

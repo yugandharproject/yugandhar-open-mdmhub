@@ -1,0 +1,54 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createLeAddress"
+	},
+	"txnPayload": {
+			 "leAddressAssocDO":       {
+			"legalentityIdpk": "27059cad-dc91-4ee5-ac9f-3d60c2e549c5",
+			"addressIdpk": null,
+			"addressTypeRefkey": "2",
+			"addressSubtypeRefkey": "1",
+			"preferredFlag": "N",
+			"solicitationFlag": "N",
+			"addressDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"addressLineOne": "Test Address Line1",
+			"addressLineTwo": "Test Address Line2",
+			"addressLineThree": null,
+			"addressLineFour": null,
+			"streetNumber": null,
+			"streetName": null,
+			"houseNumber": null,
+			"buildingNumber": null,
+			"county": null,
+			"city": "Pune",
+			"districtZone": null,
+			"stateProvinceRefkey": null,
+			"countryRefkey": "1",
+			"postalCode": "111222",
+			"nearestLandmark": null,
+			"boxDesignator": null,
+			"boxIdentifier": null,
+			"nearestRailwayStation": null,
+			"nearestAirport": null
+      }
+      }
+		
+	}
+	
+}

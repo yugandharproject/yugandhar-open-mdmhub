@@ -1,0 +1,24 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "findAllLeVehicleByLegalEntityId"
+	},
+	"txnPayload": {
+	 "paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 25,	
+      	 "leVehicleAssocDO":       {
+			"legalentityIdpk": "339f240e-c408-48b7-9344-0c288951cd97",
+			"inquiryFilter":"ACTIVE"
+
+	}
+}
+}
+	

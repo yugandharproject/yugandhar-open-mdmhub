@@ -1,0 +1,12 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "findAllRefMatchActionstatusByLanguageCodeBase"
+   },
+   "txnPayload": {"refMatchActionstatusDO":    {
+      "configLanguageCodeKey": "1"
+   }}
+}

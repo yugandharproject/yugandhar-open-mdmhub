@@ -1,0 +1,26 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "performLeMatch"
+	},
+	"txnPayload": {
+			 "performLeMatchRequestDO":        {
+			
+			"matchEngineType": "fuzzy",
+			 "legalentityDO":       {
+			"idPk": "77776663666777799d1k"
+			 }
+      }
+		
+	}
+	
+}
+  

@@ -1,0 +1,13 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveAccountByAccountId"
+   },
+   "txnPayload": {"accountDO":    {
+      "idPk":  "ee80f474-dd85-40b1-a5bf-42b66cd3e757",
+      "inquiryLevel": "103"
+   }}
+}

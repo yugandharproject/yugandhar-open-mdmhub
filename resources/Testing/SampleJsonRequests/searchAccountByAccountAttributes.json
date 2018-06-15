@@ -1,0 +1,31 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "searchAccountByAccountAttributes"
+	},
+	"txnPayload": {
+	 "paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 50,	
+      	 "searchAccountRequestDO":       {
+			"accountidPk": null,
+"sourceSystemRefkey": "3",
+"sourceAccountId": "%1%",
+"accountName": "Test",
+"accountName2": "%T%",
+"accountDescription": "%",
+"accountSourceStatusRefkey": "1",
+"accountMdmStatusRefkey": "1",
+"inquiryFilter":"ACTIVE",
+"inquiryLevel": null
+	}
+}
+}
+	

@@ -1,0 +1,36 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateLeAddress"
+   },
+   "txnPayload": {"leAddressAssocDO":    {
+      "idPk": "115f70d9-dd86-46f0-a3d6-78adfea94c8d",
+      "version": 14,
+      "createdTs": "2017-07-12T10.11.56.042+0000",
+      "updatedTs": "2017-07-31T07.09.32.369+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "legalentityIdpk": "27059cad-dc91-4ee5-ac9f-3d60c2e549c5",
+      "addressIdpk": "3333333",
+      "addressTypeRefkey": "1",
+      "addressSubtypeRefkey": "2",
+      "preferredFlag": "N",
+      "solicitationFlag": "N",
+      "addressDO":       {
+         "idPk": "3333333",
+         "version": 3,
+         "createdTs": "2017-07-12T11.34.22.856+0000",
+         "updatedTs": "2017-07-31T07.09.30.922+0000",
+         "updatedByUser": "admin",
+         "updatedByTxnId": "1234567890123",
+         "addressLineOne": "Test Address Line1",
+         "addressLineTwo": "Test Address Line2",
+         "city": "Pune",
+         "countryRefkey": "1",
+         "postalCode": "111222"
+      }
+   }}
+}

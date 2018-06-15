@@ -1,0 +1,13 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveLePropertyByLePropertyAssocId"
+   },
+   "txnPayload": {"lePropertyAssocDO":    {
+      "idPk": "5dacf254-3ca3-4d5f-8734-5fa372d80807"
+     
+   }}
+}

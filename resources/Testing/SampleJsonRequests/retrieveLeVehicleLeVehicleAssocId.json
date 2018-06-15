@@ -1,0 +1,13 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveLeVehicleLeVehicleAssocId"
+   },
+   "txnPayload": {"leVehicleAssocDO":    {
+      "idPk": "1a6352ce-7a46-49a2-9eed-ff005aedc751"
+      
+   }}
+}

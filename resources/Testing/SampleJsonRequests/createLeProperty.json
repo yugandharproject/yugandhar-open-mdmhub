@@ -1,0 +1,29 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createLeProperty"
+	},
+	"txnPayload": {
+			 "lePropertyAssocDO":       {
+			"propertyIdpk": null,
+			"legalentityIdpk": "a55c371e-59cb-4066-bb8a-687e153559de",
+			"propertyLeReltypeRefkey": "1",
+			"description": null,
+			"propertyDO":       {
+			"propertyName": "Test",
+			"addressIdpk": "123213"
+      }
+      }
+		
+	}
+	
+}
+  

@@ -1,0 +1,31 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createInactiveLeRegistryBase"
+	},
+	"txnPayload": {
+			 "inactiveLeRegistryDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"legalentityIdpk": "2",
+			"inactivatedTs": "2017-10-30T12.11.06.896+0000",
+			"inactivationReasonRefkey": "3",
+			"comments": "TP"
+      }
+		
+	}
+	
+}

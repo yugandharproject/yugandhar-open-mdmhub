@@ -1,0 +1,37 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "searchAccountByLEAttributes"
+	},
+	"txnPayload": {
+	 "paginationIndexOfCurrentSlice":0,
+      "paginationPageSize": 10,	
+      	 "searchAccountRequestDO":       {
+			"displayName": "%SURESH",
+"personNameOne": null,
+"personLastName": null,
+"corporationName": null,
+"addressLineOne": null,
+"addressLineTwo": null,
+"city": null,
+"stateProvinceRefkey": null,
+"countryRefkey": null,
+"postalCode": null,
+"identificationTypeRefkey": null,
+"identificationNumber":"%111%",
+"phoneNumber": "1",
+"systemKeysRegistryReferenceId": null,
+"inquiryFilter":null,
+"inquiryLevel": "103"
+	}
+}
+}
+	

@@ -1,0 +1,479 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createLegalEntity"
+	},
+	"txnPayload": {
+			 "legalentityDO":       {
+			"primaryKeyDO": {
+			"idPk": "77776663666AAAA211"
+			},
+			"displayName": "JOHN MCLEAN",
+			"entityObjectTypeRefkey": "1",
+			"classificationCodeRefkey": "1",
+			"importanceTypeRefkey": "1",
+			"leRatingRefkey": "1",
+			"statusTypeRefkey": "1",
+			"sourceSystemRefkey": "1",
+			"onboardingDate": "2015-10-23",
+			"offboardingDate": null,
+			"kycVerificationFlag": "Y",
+			"description": "NO Issues",
+			
+      	 "lePersonDO":       {
+			"legalentityIdpk": null,
+			"version": null,
+			"personTypeRefkey": null,
+			"genderRefkey": "1",
+			"dateOfBirth": "1983-10-23",
+			"countryOfBirthRefkey": "356",
+			"countryCitizenshipRefkey": "356",
+			"countryOfDomicileRefkey": "356",
+			"preferredLanguageRefkey": "1",
+			"maritalStatus": null,
+			"highestEduQualRefkey": null,
+			"isDeceasedFlag": "Y",
+			"deceasedDate": "2017-10-23",
+			"isHandicappedFlag": null,
+			"handicappedSinceDate": "2017-08-21",
+			"numberOfDependents": null,
+			"numberOfChildren": null,
+			"prefereedLanguageRefkey": null,
+     
+		"personnamesDOList": 
+			[{
+			"idPk": null,
+			"version": null,
+			"legalentityIdpk": null,
+			"personnameTypeRefkey": "1",
+			"prefixNameRefkey": null,
+			"prefixMisc": null,
+			"nameOne": "JOHN",
+			"nameTwo": "PER",
+			"nameThree": "Third Name",
+			"nameFour": "Fourth Name",
+			"lastName": "MACLEAN",
+			"nickName": "Pappu",
+			"popularName": "Pappu",
+			"suffixNameRefkey": 1,
+			"suffixMisc": "Pappu",
+			"nameStandardisedFlag": "N",
+			"sourceSystemRefkey": "1"
+      },
+      {
+			"idPk": null,
+			"version": null,
+			"legalentityIdpk": null,
+			"personnameTypeRefkey": "2",
+			"prefixNameRefkey": null,
+			"prefixMisc": null,
+			"nameOne": "JOHNSON",
+			"nameTwo": null,
+			"nameThree": null,
+			"nameFour": null,
+			"lastName": "MCLEAN",
+			"nickName": null,
+			"popularName": null,
+			"suffixNameRefkey": null,
+			"suffixMisc": null,
+			"nameStandardisedFlag": null,
+			"sourceSystemRefkey": null
+      }]
+      
+     },
+	"leSystemKeysRegistryDOList":       [{
+			"sourceSystemRefkey": "1",
+			"referenceId": "SSN11234",
+			"legalentityIdpk": null,
+			"statusInSourceRefkey": "1",
+			"description": "Sample"
+      } , 
+      {
+			"sourceSystemRefkey": "2",
+			"referenceId": "DR1122444",
+			"legalentityIdpk": null,
+			"statusInSourceRefkey": "1",
+			"description": "Sample2"
+      }],
+     
+     "leAddressAssocDOList":       [{
+			"legalentityIdpk": null,
+			"addressIdpk": null,
+			"addressTypeRefkey": "1",
+			"addressSubtypeRefkey": "2",
+			"preferredFlag": "N",
+			"solicitationFlag": "N",
+			"addressDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"addressLineOne": "ADDRESS COUNTRY 1",
+			"addressLineTwo": "AA3",
+			"addressLineThree": "TEST3",
+			"addressLineFour": "ROAD",
+			"streetNumber": "103",
+			"streetName": "NIL ROAD",
+			"houseNumber": "13",
+			"buildingNumber": "E",
+			"county": "YORKSHIRE",
+			"city": "PUNE",
+			"districtZone": "PUNE",
+			"stateProvinceRefkey": "AL",
+			"countryRefkey": "840",
+			"postalCode": "411057",
+			"nearestLandmark": "NEAR HANUMAND MANDIR",
+			"boxDesignator": "Y",
+			"boxIdentifier": "10",
+			"nearestRailwayStation": "PUNE",
+			"nearestAirport": "MUMBAI"
+      }
+      },
+      {
+			"legalentityIdpk": null,
+			"addressIdpk": null,
+			"addressTypeRefkey": "1",
+			"addressSubtypeRefkey": "1",
+			"preferredFlag": "N",
+			"solicitationFlag": "N",
+			"addressDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"addressLineOne": "Test Address Line1",
+			"addressLineTwo": "Test Address Line2",
+			"addressLineThree": "Test Address Line3",
+			"addressLineFour": "Test Address Line4",
+			"streetNumber": "103",
+			"streetName": "NILKANTH ROAD",
+			"houseNumber": "13",
+			"buildingNumber": "E",
+			"county": "YORKSHIRE",
+			"city": "Pune",
+			"districtZone": "PUNE",
+			"stateProvinceRefkey": "AL",
+			"countryRefkey": "840",
+			"postalCode": "3332221",
+			"nearestLandmark": "NEAR HANUMAND MANDIR",
+			"boxDesignator": "Y",
+			"boxIdentifier": "10",
+			"nearestRailwayStation": "PUNE",
+			"nearestAirport": "MUMBAI"
+      }
+      }],
+      "lePhoneAssocDOList":       [{
+			"legalentityIdpk": null,
+			"phoneTypeRefkey": "1",
+			"phoneSubtypeRefkey": "1",
+			"preferredFlag": "1",
+			"phoneNumber": "1",
+			"phoneStandardizedIdpk": null,
+			"phoneStandardizedDO":       {
+			"ituCountryCallingCode": "01",
+			"areaCode": "20",
+			"exchange": "724",
+			"phoneNumber": "43293948721",
+			"extension": "31547"
+      }
+      },
+      {
+			"legalentityIdpk": null,
+			"phoneTypeRefkey": "2",
+			"phoneSubtypeRefkey": "2",
+			"preferredFlag": "1",
+			"phoneNumber": "1",
+			"phoneStandardizedIdpk": null,
+			"phoneStandardizedDO":       {
+			"ituCountryCallingCode": "01",
+			"areaCode": "20",
+			"exchange": "724",
+			"phoneNumber": "123123",
+			"extension": "31547"
+      }
+      },{
+			"legalentityIdpk": null,
+			"phoneTypeRefkey": "3",
+			"phoneSubtypeRefkey": "3",
+			"preferredFlag": "1",
+			"phoneNumber": "1",
+			"phoneStandardizedIdpk": null,
+			"phoneStandardizedDO":       {
+			"ituCountryCallingCode": "01",
+			"areaCode": "20",
+			"exchange": "724",
+			"phoneNumber": "66226622",
+			"extension": "31547"
+      }
+      }],
+       "lePreferencesDOList":       [{
+			"legalentityIdpk": null,
+			"preferenceTypeRefkey": "1",
+			"prefFlag": "Y",
+			"prefDescription": "TEST"
+      }, 
+      {
+			"legalentityIdpk": null,
+			"preferenceTypeRefkey": "2",
+			"prefFlag": "Y",
+			"prefDescription": "TEST"
+      }],
+       "leIdentifierKycRegistryDOList":       [{
+			"identificationTypeRefkey": "1",
+			"identificationNumber": "SSN12312",
+			"legalentityIdpk": null,
+			"document": "TEST",
+			"issuedBy": "GOVT",
+			"idConsideredForKycFlag": null,
+			"issuedDate": "2017-08-23",
+			"sourceSystemRefkey": null,
+			"identityDescription": null
+      }, {
+			"identificationTypeRefkey": "2",
+			"identificationNumber": "DR123123",
+			"legalentityIdpk": null,
+			"document": "TEST",
+			"issuedBy": "GOVT",
+			"idConsideredForKycFlag": null,
+			"issuedDate": "2017-08-23",
+			"sourceSystemRefkey": null,
+			"identityDescription": null
+      }],
+      "leAccountAssocDOList":       [{
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": null,
+			"roleActivationDate": "2017-08-23",
+			"roleDeactivationDate": "2018-08-23",
+			"deactivationReasonRefkey": "1",
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": null,
+			"accountDO":       {
+			"contractSignedLangRefkey": "1",
+			"currencyRefkey": "12",
+			"billingModeTypeRefkey": "1",
+			"frequencyOfPayment": null,
+			"lobtypeRefkey": null,
+			"lobDescription": null,
+			"sourceSystemRefkey": null,
+			"sourceAccountId": null,
+			"managedbyBuCode": null,
+			"managedbyBuId": null,
+			"branchCodeRefkey": null,
+			"accountName": "Test",
+			"accountName2": null,
+			"accountDescription": null,
+			"accountSourceStatusRefkey": null,
+			"accountMdmStatusRefkey": null,
+			"signedDate": "2017-08-23",
+			"signedPlace": null,
+			"executedDate": "2017-08-23",
+			"terminatedDate": "2017-09-23",
+			"terminationReasonRefkey": null,
+			"accountAddressAssocDOList":       [
+                  {
+            "addressTypeRefkey": "1",
+            "addressSubtypeRefkey": "1",
+            "preferredFlag": "Y",
+            "solicitationFlag": "Y",
+            "addressDO":             {
+             
+               "addressLineOne": "Test Address Line1",
+               "addressLineTwo": "Test Address Line2",
+               "city": "Pune",
+               "countryRefkey": "356",
+               "postalCode": "111222"
+            }
+         },
+                  {
+            "addressTypeRefkey": "2",
+            "addressSubtypeRefkey": "2",
+            "preferredFlag": "Y",
+            "solicitationFlag": "Y",
+            "addressDO":             {
+               "addressLineOne": "Test Address Line1",
+               "addressLineTwo": "Test Address Line2",
+               "city": "Pune",
+               "countryRefkey": "356",
+               "postalCode": "111222"
+            }
+         }
+      ],
+      "accountPhoneAssocDOList":       [
+                  {
+            "phoneTypeRefkey": "1",
+            "phoneSubtypeRefkey": "1",
+            "preferredFlag": "Y",
+            "phoneNumber": "12321123213",
+            "phoneStandardizedIdpk": null,
+            "phoneStandardizedDO":             {
+               "ituCountryCallingCode": "01",
+               "areaCode": "20",
+               "exchange": "724",
+               "phoneNumber": "66226622",
+               "extension": "31547"
+            }
+         },
+                  {
+            "phoneTypeRefkey": "2",
+            "phoneSubtypeRefkey": "2",
+            "preferredFlag": "Y",
+            "phoneNumber": "12321123213",
+            "phoneStandardizedIdpk": null,
+            "phoneStandardizedDO":             {
+               "ituCountryCallingCode": "01",
+               "areaCode": "20",
+               "exchange": "724",
+               "phoneNumber": "66226622",
+               "extension": "31547"
+            }
+         }
+      ]
+      }
+      },{
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": null,
+			"roleActivationDate": "2017-08-23",
+			"roleDeactivationDate": "2019-08-23",
+			"deactivationReasonRefkey": "1",
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": null,
+			"accountDO":       {
+			"contractSignedLangRefkey": "1",
+			"currencyRefkey": "12",
+			"billingModeTypeRefkey": "1",
+			"frequencyOfPayment": null,
+			"lobtypeRefkey": null,
+			"lobDescription": null,
+			"sourceSystemRefkey": null,
+			"sourceAccountId": null,
+			"managedbyBuCode": null,
+			"managedbyBuId": null,
+			"branchCodeRefkey": null,
+			"accountName": "Test",
+			"accountName2": null,
+			"accountDescription": null,
+			"accountSourceStatusRefkey": null,
+			"accountMdmStatusRefkey": null,
+			"signedDate": "2017-08-23",
+			"signedPlace": null,
+			"executedDate": "2017-08-23",
+			"terminatedDate": "2019-08-23",
+			"terminationReasonRefkey": null
+      }
+      }],
+       "leVehicleAssocDOList":       [{
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": "1",
+			"roleActivationDate": "2017-08-23",
+			"roleDeactivationDate": "2019-08-23",
+			"deactivationReasonRefkey": null,
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": "test",
+			 "vehicleDO":       {
+			"vinNumber": "MH12LSKDHJFDLDKFHJ",
+			"chassisNumber": "121242834792387498327494",
+			"make": "HONDA",
+			"model": "CITY",
+			"year": "1984",
+			"interiorColor": null,
+			"exteriorColor": null,
+			"registrationNumber": null,
+			"countryOfRegistrationRefkey": "356",
+			"insuranceIssuedBy": null,
+			"insuranceIssuedDate": "2017-08-23",
+			"insuranceExpiryDate": "2018-08-22"
+      }
+      },{
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": "1",
+			"roleActivationDate": "2017-08-23",
+			"roleDeactivationDate": "2019-08-23",
+			"deactivationReasonRefkey": null,
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": "test",
+			 "vehicleDO":       {
+			"vinNumber": "MH12LSKDHJFDLDKFHJ",
+			"chassisNumber": "121242834792387498327494",
+			"make": "HONDA",
+			"model": "CITY",
+			"year": "1984",
+			"interiorColor": null,
+			"exteriorColor": null,
+			"registrationNumber": null,
+			"countryOfRegistrationRefkey": "356",
+			"insuranceIssuedBy": null,
+			"insuranceIssuedDate": "2017-08-23",
+			"insuranceExpiryDate": "2019-08-23"
+      }
+      }],
+      "lePropertyAssocDOList":       [{
+			"propertyIdpk": null,
+			"legalentityIdpk": null,
+			"propertyLeReltypeRefkey": "1",
+			"description": null,
+			"propertyDO":       {
+			"propertyName": "Test",
+			"addressIdpk": "123213"
+      }
+      },
+      {
+			"propertyIdpk": null,
+			"legalentityIdpk": null,
+			"propertyLeReltypeRefkey": "1",
+			"description": null,
+			"propertyDO":       {
+			"propertyName": "Test",
+			"addressIdpk": "123213"
+      }
+      },
+      {
+			"propertyIdpk": null,
+			"legalentityIdpk": null,
+			"propertyLeReltypeRefkey": "1",
+			"description": null,
+			"propertyDO":       {
+			"propertyName": "Test",
+			"addressIdpk": "123213"
+      }
+      }],
+      "miscellaneousInfoDOList":       [{
+			"name1": "1",
+			"value1": "1",
+			"name2": "2",
+			"value2": "2"
+  },
+  {
+			"name1": "1",
+			"value1": "1",
+			"name2": "2",
+			"value2": "2"
+  },
+  {
+			"name1": "1",
+			"value1": "1",
+			"name2": "2",
+			"value2": "2"
+  }]
+		
+     
+	}
+}
+}

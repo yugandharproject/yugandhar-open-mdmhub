@@ -1,0 +1,25 @@
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "retrieveLePhoneByLePhoneAssocId"
+	},
+	"txnPayload": {
+			 "lePhoneAssocDO":       {
+			 	"idPk": "a882a276-0d32-49ab-9a46-1af8039ed5a1"
+			
+      }
+      }
+		
+	}

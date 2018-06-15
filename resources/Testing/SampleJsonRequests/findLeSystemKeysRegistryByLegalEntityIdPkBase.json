@@ -1,0 +1,24 @@
+
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "findLeSystemKeysRegistryByLegalEntityIdPkBase"
+	},
+	"txnPayload": {
+		      "paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 1,
+			 "leSystemKeysRegistryDO":       {
+			 	"legalentityIdpk": "ffb5858b-ab4e-4513-ab32-41f03b817f81"
+			
+      }
+      }
+		
+	}

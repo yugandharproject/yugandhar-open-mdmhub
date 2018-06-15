@@ -1,0 +1,18 @@
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+		"userName": "admin",
+		"userRole": "admin9",
+		"txnMessageId": "12312311115999",
+		"transactionServiceName": "findAllRefMatchResultByLanguageCodeBase"
+	},
+	"txnPayload": {
+		"paginationIndexOfCurrentSlice": 0,
+		"paginationPageSize": 25, 
+			"refMatchResultDO":        {
+		"configLanguageCodeKey": "1"
+      }
+		
+	}
+	
+}

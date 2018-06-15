@@ -1,0 +1,30 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateLeProperty"
+   },
+   "txnPayload": {"lePropertyAssocDO":    {
+      "idPk": "5dacf254-3ca3-4d5f-8734-5fa372d80807",
+      "version": 1,
+      "createdTs": "2017-07-16T09.12.08.713+0000",
+      "updatedTs": "2017-07-16T09.12.25.127+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "propertyIdpk": "9244e5dd-28e6-49a8-a33f-689de7499cd3",
+      "legalentityIdpk": "a55c371e-59cb-4066-bb8a-687e153559de",
+      "propertyLeReltypeRefkey": "1",
+      "propertyDO":       {
+         "idPk": "9244e5dd-28e6-49a8-a33f-689de7499cd3",
+         "version": 1,
+         "createdTs": "2017-07-16T09.12.08.708+0000",
+         "updatedTs": "2017-07-16T09.12.25.116+0000",
+         "updatedByUser": "admin",
+         "updatedByTxnId": "1234567890123",
+         "propertyName": "Test",
+         "addressIdpk": "123213"
+      }
+   }}
+}

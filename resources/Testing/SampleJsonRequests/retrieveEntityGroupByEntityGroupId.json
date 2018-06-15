@@ -1,0 +1,15 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveEntityGroupByEntityGroupId"
+   },
+   "txnPayload": {
+   	 "paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 25,
+   	"entityGroupDO":    {
+      "idPk": "36c68b9f-465e-4bfb-9237-a6bec13d0acc"
+   }}
+}

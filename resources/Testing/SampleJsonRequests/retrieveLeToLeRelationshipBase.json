@@ -1,0 +1,12 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveLeToLeRelationshipBase"
+   },
+   "txnPayload": {"leToLeRelationshipDO":    {
+      "idPk": "006410d2-852e-42bf-b910-9d0076f58f9d"
+   }}
+}

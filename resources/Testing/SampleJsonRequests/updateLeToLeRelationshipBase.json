@@ -1,0 +1,18 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateLeToLeRelationshipBase"
+   },
+   "txnPayload": {"leToLeRelationshipDO":    {
+      "idPk": "bbdab392-6a81-417b-8ab7-d086feb50fab",
+      "version": 0,
+      "fromLegalentityIdpk": "555555555",
+      "toLegalentityIdpk": "11111111111111",
+      "leRelationshipTypeRefkey": "1",
+      "relationshipStatusRefkey": "1",
+      "relationshipDescription": "Test"
+   }}
+}

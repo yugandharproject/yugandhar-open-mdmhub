@@ -1,0 +1,12 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveRefMergeReasonBase"
+   },
+   "txnPayload": {"refMergeReasonDO":    {
+      "idPk": "fea4a6dc-40f8-47ff-aa11-0a76f57e50a1"
+   }}
+}

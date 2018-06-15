@@ -1,0 +1,26 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createRefMatchThresholdBase"
+	},
+	"txnPayload": {
+			 "refMatchThresholdDO":        {
+			"attrBlockName": "PERSON.TEST",
+			"matchThreshold": "80",
+			"decayThresholdInDays": "1",
+			"decayPercentage": "0.022222",
+			"maxDecayPercentage": "20"
+      }
+		
+	}
+	
+}
+  

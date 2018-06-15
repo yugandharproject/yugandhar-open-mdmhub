@@ -1,0 +1,21 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateRefMatchResultBase"
+   },
+   "txnPayload": {"refMatchResultDO":    {
+      "idPk": "daefb435-66f6-42fd-af43-889382bbfc74",
+      "version": 0,
+      "createdTs": "2017-10-30T11.47.00.864+0000",
+      "updatedTs": "2017-10-30T11.47.00.864+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "configLanguageCodeKey": "1",
+      "key": "4",
+      "value": "NON MATCH",
+      "description": "NON MATCH"
+   }}
+}

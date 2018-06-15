@@ -1,0 +1,13 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveRefInactivationReasonBase"
+   },
+   "txnPayload": {"refInactivationReasonDO":    {
+      "idPk": "767a7839-07f0-44bc-86a8-6faca2accb45"
+    
+   }}
+}

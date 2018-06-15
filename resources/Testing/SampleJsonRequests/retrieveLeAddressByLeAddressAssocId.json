@@ -1,0 +1,20 @@
+
+{
+   "txnHeader":    {
+   	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "retrieveLeAddressByLeAddressAssocId"
+   },
+   "txnPayload": {
+   	"leAddressAssocDO":    {
+      "idPk": "115f70d9-dd86-46f0-a3d6-78adfea94c8d"
+      
+   }}
+}

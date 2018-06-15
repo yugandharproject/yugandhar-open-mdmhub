@@ -1,0 +1,21 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateRefMatchActionstatusBase"
+   },
+   "txnPayload": {"refMatchActionstatusDO":    {
+      "idPk": "a546b997-7662-4dde-a581-a45f6676a425",
+      "version": 0,
+      "createdTs": "2017-10-30T11.29.54.361+0000",
+      "updatedTs": "2017-10-30T11.29.54.361+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "configLanguageCodeKey": "1",
+      "key": "1",
+      "value": "MATCH CANDIDATE CREATED",
+      "description": "MATCH CANDIDATE CREATED"
+   }}
+}

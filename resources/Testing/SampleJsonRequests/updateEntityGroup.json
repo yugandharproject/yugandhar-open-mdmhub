@@ -1,0 +1,69 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateEntityGroup"
+   },
+   "txnPayload": {"entityGroupDO":    {
+      "idPk": "36c68b9f-465e-4bfb-9237-a6bec13d0acc",
+      "version": 1,
+      "createdTs": "2017-07-27T10.01.41.538+0000",
+      "updatedTs": "2017-07-27T10.03.12.741+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "groupTypeRefkey": "1",
+      "groupSubtypeRefkey": "1",
+      "groupName": "Test Group",
+      "description": "Test Group desc",
+      "entityGroupAssocDOList":       [
+                  {
+            "idPk": "61fd931e-67c3-458a-b2fb-9ff15d4ece7d",
+            "version": 1,
+            "createdTs": "2017-07-27T10.01.41.553+0000",
+            "updatedTs": "2017-07-27T10.03.12.984+0000",
+            "updatedByUser": "admin",
+            "updatedByTxnId": "1234567890123",
+            "entityObjectTypeRefkey": "3",
+            "entityIdpk": "111",
+            "entityGroupIdpk": "36c68b9f-465e-4bfb-9237-a6bec13d0acc",
+            "assocTypeRefkey": "1",
+            "description": "Test"
+         },
+                  {
+            "idPk": "e1def382-39b6-4019-95d1-f10e2bd343f3",
+            "version": 1,
+            "createdTs": "2017-07-27T10.01.41.617+0000",
+            "updatedTs": "2017-07-27T10.03.13.006+0000",
+            "updatedByUser": "admin",
+            "updatedByTxnId": "1234567890123",
+            "entityObjectTypeRefkey": "3",
+            "entityIdpk": "112",
+            "entityGroupIdpk": "36c68b9f-465e-4bfb-9237-a6bec13d0acc",
+            "assocTypeRefkey": "1",
+            "description": "Test1"
+         },
+                  {
+            "idPk": "8e072197-3cc1-426f-ad7c-47ce28126e72",
+            "version": 0,
+            "createdTs": "2017-07-27T10.03.13.029+0000",
+            "updatedTs": "2017-07-27T10.03.13.029+0000",
+            "updatedByUser": "admin",
+            "updatedByTxnId": "1234567890123",
+            "entityObjectTypeRefkey": "3",
+            "entityIdpk": "113",
+            "entityGroupIdpk": "36c68b9f-465e-4bfb-9237-a6bec13d0acc",
+            "assocTypeRefkey": "1",
+            "description": "Test1"
+         },
+         {
+            "entityObjectTypeRefkey": "3",
+            "entityIdpk": "114",
+            "entityGroupIdpk": "xxxxxxxx9f-465e-4bfb-9237-a6bec13d0acc",
+            "assocTypeRefkey": "1",
+            "description": "Test1"
+         }
+      ]
+   }}
+}

@@ -1,0 +1,430 @@
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+		"requesterLocale": null,
+		"userName": "admin",
+		"userRole": "admin",
+		"accessToken": null,
+		"txnCorrelationId": null,
+		"txnMessageId": "",
+		"requestOriginSource": null,
+		"requesterSystem": null,
+		"transactionServiceName": "createLegalEntity"
+	},
+	"txnPayload": {
+		"legalentityDO": {
+			"primaryKeyDO": {
+				"idPk": "888866636667777CCC08"
+			},
+			"displayName": "HDFC ERGO GEN",
+			"entityObjectTypeRefkey": "2",
+			"classificationCodeRefkey": "1",
+			"importanceTypeRefkey": "1",
+			"leRatingRefkey": "1",
+			"statusTypeRefkey": "1",
+			"sourceSystemRefkey": "1",
+			"onboardingDate": "2015-10-23",
+			"offboardingDate": null,
+			"kycVerificationFlag": "Y",
+			"description": "NO Issues",
+			"leCorporationDO": {
+				"classificationCodeRefkey": "1",
+				"industryCodeRefkey": "1",
+				"govtRegistrationDate": null,
+				"countryRegistrationRefkey": "840",
+				"notprofitFlag": "Y",
+				"corporationnamesDOList": [{
+					"corporationNameTypeRefkey": "1",
+					"corporationName": "HDFC ERGO GEN",
+					"sourceSystemRefkey": "1"
+				},
+				{
+					"corporationNameTypeRefkey": "2",
+					"corporationName": "HDFC ERGO GENERAL INSURANCE",
+					"sourceSystemRefkey": "1"
+				}]
+			},
+			"leSystemKeysRegistryDOList": [{
+				"sourceSystemRefkey": "1",
+				"referenceId": "11223333",
+				"legalentityIdpk": null,
+				"statusInSourceRefkey": "1",
+				"description": "Sample"
+			},
+			{
+				"sourceSystemRefkey": "2",
+				"referenceId": "112233331",
+				"legalentityIdpk": null,
+				"statusInSourceRefkey": "1",
+				"description": "Sample2"
+			}],
+			"leAddressAssocDOList": [{
+				"legalentityIdpk": null,
+				"addressIdpk": null,
+				"addressTypeRefkey": "1",
+				"addressSubtypeRefkey": "2",
+				"preferredFlag": "N",
+				"solicitationFlag": "N",
+				"addressDO": {
+					"idPk": null,
+					"version": null,
+					"createdTs": null,
+					"deletedTs": null,
+					"updatedTs": null,
+					"updatedByUser": null,
+					"updatedByTxnId": null,
+					"addressLineOne": "Pune Address 1",
+					"addressLineTwo": "Pune Address 2",
+					"addressLineThree": " Pune Address 3",
+					"addressLineFour": " Pune Address 4",
+					"streetNumber": "103",
+					"streetName": "123 ROAD1",
+					"houseNumber": "13",
+					"buildingNumber": "E",
+					"county": "SHIVAJINAGAR",
+					"city": "PUNE",
+					"districtZone": "PUNE",
+					"stateProvinceRefkey": "AL",
+					"countryRefkey": "840",
+					"postalCode": "411057",
+					"nearestLandmark": "NEAR HANUMAND MANDIR",
+					"boxDesignator": "Y",
+					"boxIdentifier": "10",
+					"nearestRailwayStation": "PUNE",
+					"nearestAirport": "MUMBAI"
+				}
+			},
+			{
+				"legalentityIdpk": null,
+				"addressIdpk": null,
+				"addressTypeRefkey": "1",
+				"addressSubtypeRefkey": "1",
+				"preferredFlag": "N",
+				"solicitationFlag": "N",
+				"addressDO": {
+					"idPk": null,
+					"version": null,
+					"createdTs": null,
+					"deletedTs": null,
+					"updatedTs": null,
+					"updatedByUser": null,
+					"updatedByTxnId": null,
+					"addressLineOne": "YERWADA CENTER CIRCLE",
+					"addressLineTwo": "ADDRESS LINE ONE",
+					"addressLineThree": "Address Line 3",
+					"addressLineFour": "Address Line 4",
+					"streetNumber": "103",
+					"streetName": "BAL ROAD CIRCLE",
+					"houseNumber": "13",
+					"buildingNumber": "E",
+					"county": "GANDHARV",
+					"city": "MUMBAI",
+					"districtZone": "PUNE",
+					"stateProvinceRefkey": "AL",
+					"countryRefkey": "840",
+					"postalCode": "400001",
+					"nearestLandmark": "NEAR HANUMAND MANDIR",
+					"boxDesignator": "Y",
+					"boxIdentifier": "10",
+					"nearestRailwayStation": "PUNE",
+					"nearestAirport": "MUMBAI"
+				}
+			}],
+			"lePhoneAssocDOList": [{
+				"legalentityIdpk": null,
+				"phoneTypeRefkey": "1",
+				"phoneSubtypeRefkey": "1",
+				"preferredFlag": "1",
+				"phoneNumber": "02011113331",
+				"phoneStandardizedIdpk": null,
+				"phoneStandardizedDO": {
+					"ituCountryCallingCode": "01",
+					"areaCode": "20",
+					"exchange": "111",
+					"phoneNumber": "1111",
+					"extension": "31547"
+				}
+			},
+			{
+				"legalentityIdpk": null,
+				"phoneTypeRefkey": "2",
+				"phoneSubtypeRefkey": "2",
+				"preferredFlag": "1",
+				"phoneNumber": "02011113332",
+				"phoneStandardizedIdpk": null,
+				"phoneStandardizedDO": {
+					"ituCountryCallingCode": "01",
+					"areaCode": "20",
+					"exchange": "91",
+					"phoneNumber": "919191",
+					"extension": "31547"
+				}
+			},
+			{
+				"legalentityIdpk": null,
+				"phoneTypeRefkey": "3",
+				"phoneSubtypeRefkey": "3",
+				"preferredFlag": "1",
+				"phoneNumber": "02011113333",
+				"phoneStandardizedIdpk": null,
+				"phoneStandardizedDO": {
+					"ituCountryCallingCode": "01",
+					"areaCode": "20",
+					"exchange": "9653",
+					"phoneNumber": "3322233",
+					"extension": "31547"
+				}
+			}],
+			"lePreferencesDOList": [{
+				"legalentityIdpk": null,
+				"preferenceTypeRefkey": "1",
+				"prefFlag": "Y",
+				"prefDescription": "TEST"
+			},
+			{
+				"legalentityIdpk": null,
+				"preferenceTypeRefkey": "2",
+				"prefFlag": "Y",
+				"prefDescription": "TEST"
+			}],
+			"leIdentifierKycRegistryDOList": [{
+				"identificationTypeRefkey": "1",
+				"identificationNumber": "IRDA2221132",
+				"legalentityIdpk": null,
+				"document": "TEST",
+				"issuedBy": "GOVT",
+				"idConsideredForKycFlag": null,
+				"issuedDate": "2017-08-23",
+				"sourceSystemRefkey": null,
+				"identityDescription": null
+			},
+			{
+				"identificationTypeRefkey": "2",
+				"identificationNumber": "GSTIN1112211",
+				"legalentityIdpk": null,
+				"document": "TEST",
+				"issuedBy": "GOVT",
+				"idConsideredForKycFlag": null,
+				"issuedDate": "2017-08-23",
+				"sourceSystemRefkey": null,
+				"identityDescription": null
+			}],
+			"leAccountAssocDOList": [{
+				"legalentityIdpk": null,
+				"leRoletypeRefkey": "1",
+				"accountIdpk": null,
+				"roleActivationDate": "2017-08-23",
+				"roleDeactivationDate": "2018-08-23",
+				"deactivationReasonRefkey": "1",
+				"agreementTypeRefkey": null,
+				"agreementTypeDescription": null,
+				"accountDO": {
+					"contractSignedLangRefkey": "1",
+					"currencyRefkey": "12",
+					"billingModeTypeRefkey": "1",
+					"frequencyOfPayment": null,
+					"lobtypeRefkey": null,
+					"lobDescription": null,
+					"sourceSystemRefkey": null,
+					"sourceAccountId": null,
+					"managedbyBuCode": null,
+					"managedbyBuId": null,
+					"branchCodeRefkey": null,
+					"accountName": "Test",
+					"accountName2": null,
+					"accountDescription": null,
+					"accountSourceStatusRefkey": null,
+					"accountMdmStatusRefkey": null,
+					"signedDate": "2017-08-23",
+					"signedPlace": null,
+					"executedDate": "2017-08-23",
+					"terminatedDate": "2017-09-23",
+					"terminationReasonRefkey": null,
+					"accountAddressAssocDOList": [{
+						"addressTypeRefkey": "1",
+						"addressSubtypeRefkey": "1",
+						"preferredFlag": "Y",
+						"solicitationFlag": "Y",
+						"addressDO": {
+							"addressLineOne": "Test Address Line1",
+							"addressLineTwo": "Test Address Line2",
+							"city": "Pune",
+							"countryRefkey": "356",
+							"postalCode": "111222"
+						}
+					},
+					{
+						"addressTypeRefkey": "2",
+						"addressSubtypeRefkey": "2",
+						"preferredFlag": "Y",
+						"solicitationFlag": "Y",
+						"addressDO": {
+							"addressLineOne": "Test Address Line1",
+							"addressLineTwo": "Test Address Line2",
+							"city": "Pune",
+							"countryRefkey": "356",
+							"postalCode": "111222"
+						}
+					}],
+					"accountPhoneAssocDOList": [{
+						"phoneTypeRefkey": "1",
+						"phoneSubtypeRefkey": "1",
+						"preferredFlag": "Y",
+						"phoneNumber": "12321123213",
+						"phoneStandardizedIdpk": null,
+						"phoneStandardizedDO": {
+							"ituCountryCallingCode": "01",
+							"areaCode": "20",
+							"exchange": "724",
+							"phoneNumber": "66226622",
+							"extension": "31547"
+						}
+					},
+					{
+						"phoneTypeRefkey": "2",
+						"phoneSubtypeRefkey": "2",
+						"preferredFlag": "Y",
+						"phoneNumber": "12321123213",
+						"phoneStandardizedIdpk": null,
+						"phoneStandardizedDO": {
+							"ituCountryCallingCode": "01",
+							"areaCode": "20",
+							"exchange": "724",
+							"phoneNumber": "66226622",
+							"extension": "31547"
+						}
+					}]
+				}
+			},
+			{
+				"legalentityIdpk": null,
+				"leRoletypeRefkey": "1",
+				"accountIdpk": null,
+				"roleActivationDate": "2017-08-23",
+				"roleDeactivationDate": "2019-08-23",
+				"deactivationReasonRefkey": "1",
+				"agreementTypeRefkey": null,
+				"agreementTypeDescription": null,
+				"accountDO": {
+					"contractSignedLangRefkey": "1",
+					"currencyRefkey": "12",
+					"billingModeTypeRefkey": "1",
+					"frequencyOfPayment": null,
+					"lobtypeRefkey": null,
+					"lobDescription": null,
+					"sourceSystemRefkey": null,
+					"sourceAccountId": null,
+					"managedbyBuCode": null,
+					"managedbyBuId": null,
+					"branchCodeRefkey": null,
+					"accountName": "Test",
+					"accountName2": null,
+					"accountDescription": null,
+					"accountSourceStatusRefkey": null,
+					"accountMdmStatusRefkey": null,
+					"signedDate": "2017-08-23",
+					"signedPlace": null,
+					"executedDate": "2017-08-23",
+					"terminatedDate": "2019-08-23",
+					"terminationReasonRefkey": null
+				}
+			}],
+			"leVehicleAssocDOList": [{
+				"legalentityIdpk": null,
+				"leRoletypeRefkey": "1",
+				"accountIdpk": "1",
+				"roleActivationDate": "2017-08-23",
+				"roleDeactivationDate": "2019-08-23",
+				"deactivationReasonRefkey": null,
+				"agreementTypeRefkey": null,
+				"agreementTypeDescription": "test",
+				"vehicleDO": {
+					"vinNumber": "MH12LSKDHJFDLDKFHJ",
+					"chassisNumber": "121242834792387498327494",
+					"make": "HONDA",
+					"model": "CITY",
+					"year": "1984",
+					"interiorColor": null,
+					"exteriorColor": null,
+					"registrationNumber": null,
+					"countryOfRegistrationRefkey": "356",
+					"insuranceIssuedBy": null,
+					"insuranceIssuedDate": "2017-08-23",
+					"insuranceExpiryDate": "2018-08-22"
+				}
+			},
+			{
+				"legalentityIdpk": null,
+				"leRoletypeRefkey": "1",
+				"accountIdpk": "1",
+				"roleActivationDate": "2017-08-23",
+				"roleDeactivationDate": "2019-08-23",
+				"deactivationReasonRefkey": null,
+				"agreementTypeRefkey": null,
+				"agreementTypeDescription": "test",
+				"vehicleDO": {
+					"vinNumber": "MH12LSKDHJFDLDKFHJ",
+					"chassisNumber": "121242834792387498327494",
+					"make": "HONDA",
+					"model": "CITY",
+					"year": "1984",
+					"interiorColor": null,
+					"exteriorColor": null,
+					"registrationNumber": null,
+					"countryOfRegistrationRefkey": "356",
+					"insuranceIssuedBy": null,
+					"insuranceIssuedDate": "2017-08-23",
+					"insuranceExpiryDate": "2019-08-23"
+				}
+			}],
+			"lePropertyAssocDOList": [{
+				"propertyIdpk": null,
+				"legalentityIdpk": null,
+				"propertyLeReltypeRefkey": "1",
+				"description": null,
+				"propertyDO": {
+					"propertyName": "Test",
+					"addressIdpk": "123213"
+				}
+			},
+			{
+				"propertyIdpk": null,
+				"legalentityIdpk": null,
+				"propertyLeReltypeRefkey": "1",
+				"description": null,
+				"propertyDO": {
+					"propertyName": "Test",
+					"addressIdpk": "123213"
+				}
+			},
+			{
+				"propertyIdpk": null,
+				"legalentityIdpk": null,
+				"propertyLeReltypeRefkey": "1",
+				"description": null,
+				"propertyDO": {
+					"propertyName": "Test",
+					"addressIdpk": "123213"
+				}
+			}],
+			"miscellaneousInfoDOList": [{
+				"name1": "1",
+				"value1": "1",
+				"name2": "2",
+				"value2": "2"
+			},
+			{
+				"name1": "1",
+				"value1": "1",
+				"name2": "2",
+				"value2": "2"
+			},
+			{
+				"name1": "1",
+				"value1": "1",
+				"name2": "2",
+				"value2": "2"
+			}]
+		}
+	}
+}

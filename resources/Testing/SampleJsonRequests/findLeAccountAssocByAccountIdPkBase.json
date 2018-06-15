@@ -1,0 +1,24 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "findLeAccountAssocByAccountIdPkBase"
+	},
+	"txnPayload": {
+		"paginationIndexOfCurrentSlice": 1,
+           "paginationPageSize": 1,
+			 			
+      	 "leAccountAssocDO":       {
+			"accountIdpk": "ee80f474-dd85-40b1-a5bf-42b66cd3e757"
+
+	}
+}
+}
+	

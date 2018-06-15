@@ -1,0 +1,22 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateInactiveLeRegistryBase"
+   },
+   "txnPayload": {"inactiveLeRegistryDO":    {
+    "idPk": "2634b1c0-028f-4da6-b39a-4c68fcfa653e",
+      "version": 0,
+      "createdTs": "2017-10-31T09.53.08.429+0000",
+      "updatedTs": "2017-10-31T09.53.08.429+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "legalentityIdpk": "2",
+      "inactivatedTs": "2017-10-30T12.11.06.896+0000",
+      "inactivationReasonRefkey": "1",
+      "inactivationReasonRefValue": "MATCH AND MERGED",
+      "comments": "TP1"
+   }}
+}

@@ -1,0 +1,22 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateRefMatchScoreBase"
+   },
+   "txnPayload": {"refMatchScoreDO":    {
+      "idPk": "f8d499fd-5442-47f7-8b3a-fe2c7ff6179d",
+      "version": 0,
+      "createdTs": "2017-10-30T11.58.07.797+0000",
+      "updatedTs": "2017-10-30T11.58.07.797+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "matchEntityObjectName": "PERSON",
+      "matchAttrPattern": "YYNYNYYN",
+      "matchResultRefkey": "1",
+      "matchProposedActionRefkey": "1",
+      "matchAttrPatternDescr": "NAME BLOCK,KYC,GENDER,DOB,ADDRESS,PHONE"
+   }}
+}

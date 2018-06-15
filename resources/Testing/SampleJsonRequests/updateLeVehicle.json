@@ -1,0 +1,35 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateLeVehicle"
+   },
+   "txnPayload": {"leVehicleAssocDO":    {
+      "idPk": "1a6352ce-7a46-49a2-9eed-ff005aedc751",
+      "version": 0,
+      "createdTs": "2017-07-16T09.09.30.842+0000",
+      "updatedTs": "2017-07-16T09.09.30.842+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "legalentityIdpk": "a55c371e-59cb-4066-bb8a-687e153559de",
+      "vehicleIdpk": "77588f4a-37f0-49e7-906b-0d80ebee0dab",
+      "leRoletypeRefkey": "1",
+      "accountIdpk": "1",
+      "agreementTypeDescription": "test",
+      "vehicleDO":       {
+         "idPk": "77588f4a-37f0-49e7-906b-0d80ebee0dab",
+         "version": 0,
+         "createdTs": "2017-07-16T09.09.30.748+0000",
+         "updatedTs": "2017-07-16T09.09.30.748+0000",
+         "updatedByUser": "admin",
+         "updatedByTxnId": "1234567890123",
+         "vinNumber": "MH12LSKDHJFDLDKFHJ",
+         "chassisNumber": "121242834792387498327494",
+         "make": "HONDA",
+         "model": "CITY",
+         "year": "1984"
+      }
+   }}
+}

@@ -1,0 +1,36 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateLePhone"
+   },
+   "txnPayload": {"lePhoneAssocDO":    {
+      "idPk": "13c16c93-ff17-474e-9e77-7e7dd34a0604",
+      "version": 7,
+      "createdTs": "2017-07-24T07.30.43.727+0000",
+      "updatedTs": "2017-07-24T07.48.00.365+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "legalentityIdpk": "d7e0f535-cdc8-4df4-8c59-d4ac1ec94e8d",
+      "phoneTypeRefkey": "10",
+      "phoneSubtypeRefkey": "10",
+      "preferredFlag": "1",
+      "phoneNumber": "1",
+      "phoneStandardizedIdpk": null,
+      "phoneStandardizedDO":       {
+         "idPk": "6fe7fb78-4e6b-4514-bcb8-85e8d6748a6b",
+         "version": 1,
+         "createdTs": "2017-07-24T07.48.00.360+0000",
+         "updatedTs": "2017-07-24T07.48.00.360+0000",
+         "updatedByUser": "admin",
+         "updatedByTxnId": "1234567890123",
+         "ituCountryCallingCode": "01",
+         "areaCode": "20",
+         "exchange": "724",
+         "phoneNumber": "66226622",
+         "extension": "31547"
+      }
+   }}
+}

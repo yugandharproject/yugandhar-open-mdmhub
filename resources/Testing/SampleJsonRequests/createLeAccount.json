@@ -1,0 +1,96 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createLeAccount"
+	},
+	"txnPayload": {
+			 "leAccountAssocDO":       {
+			"legalentityIdpk": "0da51057-a69f-40ee-8508-29a48168e5c9",
+			"leRoletypeRefkey": "1",
+			"accountIdpk": null,
+			"roleActivationDate": null,
+			"roleDeactivationDate": null,
+			"deactivationReasonRefkey": "1",
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": null,
+			"accountDO":    {
+      
+      "contractSignedLangRefkey": "1",
+      "currencyRefkey": "12",
+      "billingModeTypeRefkey": "1",
+      "accountName": "Test",
+      "sourceSystemRefkey":"3",
+	  "sourceAccountId":"2345567",
+      "accountAddressAssocDOList":       [
+                  {
+            "addressTypeRefkey": "1",
+            "addressSubtypeRefkey": "1",
+            "preferredFlag": "Y",
+            "solicitationFlag": "Y",
+            "addressDO":             {
+             
+               "addressLineOne": "Test Address Line1",
+               "addressLineTwo": "Test Address Line2",
+               "city": "Pune",
+               "countryRefkey": "356",
+               "postalCode": "111222"
+            }
+         },
+                  {
+            "addressTypeRefkey": "2",
+            "addressSubtypeRefkey": "2",
+            "preferredFlag": "Y",
+            "solicitationFlag": "Y",
+            "addressDO":             {
+               "addressLineOne": "Test Address Line1",
+               "addressLineTwo": "Test Address Line2",
+               "city": "Pune",
+               "countryRefkey": "356",
+               "postalCode": "111222"
+            }
+         }
+      ],
+      "accountPhoneAssocDOList":       [
+                  {
+            "phoneTypeRefkey": "1",
+            "phoneSubtypeRefkey": "1",
+            "preferredFlag": "Y",
+            "phoneNumber": "12321123213",
+            "phoneStandardizedIdpk": null,
+            "phoneStandardizedDO":             {
+               "ituCountryCallingCode": "01",
+               "areaCode": "20",
+               "exchange": "724",
+               "phoneNumber": "66226622",
+               "extension": "31547"
+            }
+         },
+                  {
+            "phoneTypeRefkey": "2",
+            "phoneSubtypeRefkey": "2",
+            "preferredFlag": "Y",
+            "phoneNumber": "12321123213",
+            "phoneStandardizedIdpk": null,
+            "phoneStandardizedDO":             {
+               "ituCountryCallingCode": "01",
+               "areaCode": "20",
+               "exchange": "724",
+               "phoneNumber": "66226622",
+               "extension": "31547"
+            }
+         }
+      ]
+   }
+      }
+		
+	}
+	
+}

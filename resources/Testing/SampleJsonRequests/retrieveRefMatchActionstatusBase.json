@@ -1,0 +1,12 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveRefMatchActionstatusBase"
+   },
+   "txnPayload": {"refMatchActionstatusDO":    {
+      "idPk": "a546b997-7662-4dde-a581-a45f6676a425"
+   }}
+}

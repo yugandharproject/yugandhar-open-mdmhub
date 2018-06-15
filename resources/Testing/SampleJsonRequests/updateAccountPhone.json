@@ -1,0 +1,24 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "updateAccountPhone"
+   },
+   "txnPayload": {"accountPhoneAssocDO":    {
+      "idPk": "9720a1ab-a324-453f-b8d9-5896f225619b",
+      "version": 4,
+      "createdTs": "2017-07-23T10.06.44.480+0000",
+      "updatedTs": "2017-07-24T07.45.20.390+0000",
+      "updatedByUser": "admin",
+      "updatedByTxnId": "1234567890123",
+      "accountIdpk": "8adeaebc-6872-4cc3-a8af-314a76ad0956",
+      "phoneTypeRefkey": "1",
+      "phoneSubtypeRefkey": "1",
+      "preferredFlag": "Y",
+      "phoneNumber": "12321123213",
+      "phoneStandardizedIdpk": null
+     
+   }}
+}

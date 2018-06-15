@@ -1,0 +1,22 @@
+
+{
+   "txnHeader":    {
+   	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "findAllLeAddressByLegalEntityId"
+   },
+   "txnPayload": {
+   	 "paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 25,
+   	"leAddressAssocDO":    {
+      "legalentityIdpk": "2257ba31-193f-4b84-816d-438adfc62233"
+      
+   }}
+}

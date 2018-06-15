@@ -1,0 +1,31 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createRefMergeReasonBase"
+	},
+	"txnPayload": {
+			 "refMergeReasonDO":        {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"configLanguageCodeKey": "1",
+			"key": "2",
+			"value": "MERGED_AFTER_REVIEW",
+			"description": "MERGED_AFTER_REVIEW"
+      }
+		
+	}
+	
+}

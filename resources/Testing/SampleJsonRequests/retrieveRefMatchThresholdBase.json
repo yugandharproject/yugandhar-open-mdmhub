@@ -1,0 +1,12 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveRefMatchThresholdBase"
+   },
+   "txnPayload": {"refMatchThresholdDO":    {
+      "idPk": "5e6f08ef-0e6b-4e3f-912c-eee045dd30b9"
+   }}
+}

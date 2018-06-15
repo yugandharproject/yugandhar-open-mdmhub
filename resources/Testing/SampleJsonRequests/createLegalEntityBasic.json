@@ -1,0 +1,377 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createLegalEntity"
+	},
+	"txnPayload": {
+			 "legalentityDO":       {
+			"primaryKeyDO": {
+			"idPk": "77776663666777799bp"
+			},
+			"displayName": "SURESH",
+			"entityObjectTypeRefkey": "1",
+			"classificationCodeRefkey": "1",
+			"importanceTypeRefkey": "1",
+			"leRatingRefkey": "1",
+			"statusTypeRefkey": "1",
+			"sourceSystemRefkey": "1",
+			"onboardingDate": null,
+			"offboardingDate": null,
+			"kycVerificationFlag": "Y",
+			"description": "NO Issues",
+			
+      	 "lePersonDO":       {
+			"legalentityIdpk": null,
+			"version": null,
+			"personTypeRefkey": null,
+			"genderRefkey": null,
+			"dateOfBirth": null,
+			"countryOfBirthRefkey": "356",
+			"countryCitizenshipRefkey": "356",
+			"countryOfDomicileRefkey": "356",
+			"preferredLanguageRefkey": "1",
+			"maritalStatus": null,
+			"highestEduQualRefkey": null,
+			"isDeceasedFlag": null,
+			"deceasedDate": null,
+			"isHandicappedFlag": null,
+			"handicappedSinceDate": null,
+			"numberOfDependents": null,
+			"numberOfChildren": null,
+			"prefereedLanguageRefkey": null,
+     
+		"personnamesDOList": 
+			[{
+			"idPk": null,
+			"version": null,
+			"legalentityIdpk": null,
+			"personnameTypeRefkey": "1",
+			"prefixNameRefkey": null,
+			"prefixMisc": null,
+			"nameOne": "Test",
+			"nameTwo": null,
+			"nameThree": null,
+			"nameFour": null,
+			"lastName": "Test Last Name",
+			"nickName": null,
+			"popularName": null,
+			"suffixNameRefkey": null,
+			"suffixMisc": null,
+			"nameStandardisedFlag": null,
+			"sourceSystemRefkey": null
+      },
+      {
+			"idPk": null,
+			"version": null,
+			"legalentityIdpk": null,
+			"personnameTypeRefkey": "2",
+			"prefixNameRefkey": null,
+			"prefixMisc": null,
+			"nameOne": "Test2",
+			"nameTwo": null,
+			"nameThree": null,
+			"nameFour": null,
+			"lastName": "Test Last Name2",
+			"nickName": null,
+			"popularName": null,
+			"suffixNameRefkey": null,
+			"suffixMisc": null,
+			"nameStandardisedFlag": null,
+			"sourceSystemRefkey": null
+      }]
+      
+     },
+	"leSystemKeysRegistryDOList":       [{
+			"sourceSystemRefkey": "1",
+			"referenceId": "11223333",
+			"legalentityIdpk": null,
+			"statusInSourceRefkey": "1",
+			"description": "Sample"
+      } , 
+      {
+			"sourceSystemRefkey": "2",
+			"referenceId": "112233331",
+			"legalentityIdpk": null,
+			"statusInSourceRefkey": "1",
+			"description": "Sample2"
+      }],
+     
+     "leAddressAssocDOList":       [{
+			"legalentityIdpk": null,
+			"addressIdpk": null,
+			"addressTypeRefkey": "1",
+			"addressSubtypeRefkey": "2",
+			"preferredFlag": "N",
+			"solicitationFlag": "N",
+			"addressDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"addressLineOne": "Test Address Line1",
+			"addressLineTwo": "Test Address Line2",
+			"addressLineThree": null,
+			"addressLineFour": null,
+			"streetNumber": null,
+			"streetName": null,
+			"houseNumber": null,
+			"buildingNumber": null,
+			"county": null,
+			"city": "Pune",
+			"districtZone": null,
+			"stateProvinceRefkey": null,
+			"countryRefkey": "356",
+			"postalCode": "111222",
+			"nearestLandmark": null,
+			"boxDesignator": null,
+			"boxIdentifier": null,
+			"nearestRailwayStation": null,
+			"nearestAirport": null
+      }
+      },
+      {
+			"legalentityIdpk": null,
+			"addressIdpk": null,
+			"addressTypeRefkey": "1",
+			"addressSubtypeRefkey": "1",
+			"preferredFlag": "N",
+			"solicitationFlag": "N",
+			"addressDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"addressLineOne": "Test Address Line1",
+			"addressLineTwo": "Test Address Line2",
+			"addressLineThree": null,
+			"addressLineFour": null,
+			"streetNumber": null,
+			"streetName": null,
+			"houseNumber": null,
+			"buildingNumber": null,
+			"county": null,
+			"city": "Pune",
+			"districtZone": null,
+			"stateProvinceRefkey": null,
+			"countryRefkey": "356",
+			"postalCode": "111222",
+			"nearestLandmark": null,
+			"boxDesignator": null,
+			"boxIdentifier": null,
+			"nearestRailwayStation": null,
+			"nearestAirport": null
+      }
+      }],
+      "lePhoneAssocDOList":       [{
+			"legalentityIdpk": null,
+			"phoneTypeRefkey": "1",
+			"phoneSubtypeRefkey": "1",
+			"preferredFlag": "1",
+			"phoneNumber": "1",
+			"phoneStandardizedIdpk": null,
+			"phoneStandardizedDO":       {
+			"ituCountryCallingCode": "01",
+			"areaCode": "20",
+			"exchange": "724",
+			"phoneNumber": "66226622",
+			"extension": "31547"
+      }
+      },
+      {
+			"legalentityIdpk": null,
+			"phoneTypeRefkey": "2",
+			"phoneSubtypeRefkey": "2",
+			"preferredFlag": "1",
+			"phoneNumber": "1",
+			"phoneStandardizedIdpk": null,
+			"phoneStandardizedDO":       {
+			"ituCountryCallingCode": "01",
+			"areaCode": "20",
+			"exchange": "724",
+			"phoneNumber": "66226622",
+			"extension": "31547"
+      }
+      },{
+			"legalentityIdpk": null,
+			"phoneTypeRefkey": "3",
+			"phoneSubtypeRefkey": "3",
+			"preferredFlag": "1",
+			"phoneNumber": "1",
+			"phoneStandardizedIdpk": null,
+			"phoneStandardizedDO":       {
+			"ituCountryCallingCode": "01",
+			"areaCode": "20",
+			"exchange": "724",
+			"phoneNumber": "66226622",
+			"extension": "31547"
+      }
+      }],
+       "lePreferencesDOList":       [{
+			"legalentityIdpk": null,
+			"preferenceTypeRefkey": "1",
+			"prefFlag": "Y",
+			"prefDescription": "TEST"
+      }, 
+      {
+			"legalentityIdpk": null,
+			"preferenceTypeRefkey": "2",
+			"prefFlag": "Y",
+			"prefDescription": "TEST"
+      }],
+       "leIdentifierKycRegistryDOList":       [{
+			"identificationTypeRefkey": "1",
+			"identificationNumber": "11111",
+			"legalentityIdpk": null,
+			"document": "TEST",
+			"issuedBy": "GOVT",
+			"idConsideredForKycFlag": null,
+			"issuedDate": null,
+			"sourceSystemRefkey": null,
+			"identityDescription": null
+      }, {
+			"identificationTypeRefkey": "2",
+			"identificationNumber": "11111",
+			"legalentityIdpk": null,
+			"document": "TEST",
+			"issuedBy": "GOVT",
+			"idConsideredForKycFlag": null,
+			"issuedDate": null,
+			"sourceSystemRefkey": null,
+			"identityDescription": null
+      }],
+      "leAccountAssocDOList":       [ {
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": "e9ddff33-b594-4168-aad0-05f341fcb57d",
+			"roleActivationDate": null,
+			"roleDeactivationDate": null,
+			"deactivationReasonRefkey": "1",
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": null
+			
+      },
+	  {
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": "ee80f474-dd85-40b1-a5bf-42b66cd3e757",
+			"roleActivationDate": null,
+			"roleDeactivationDate": null,
+			"deactivationReasonRefkey": "1",
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": null
+			
+      }],
+       "leVehicleAssocDOList":       [{
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": "1",
+			"roleActivationDate": null,
+			"roleDeactivationDate": null,
+			"deactivationReasonRefkey": null,
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": "test",
+			 "vehicleDO":       {
+			"vinNumber": "MH12LSKDHJFDLDKFHJ",
+			"chassisNumber": "121242834792387498327494",
+			"make": "HONDA",
+			"model": "CITY",
+			"year": "1984",
+			"interiorColor": null,
+			"exteriorColor": null,
+			"registrationNumber": null,
+			"countryOfRegistrationRefkey": "356",
+			"insuranceIssuedBy": null,
+			"insuranceIssuedDate": null,
+			"insuranceExpiryDate": null
+      }
+      },{
+			"legalentityIdpk": null,
+			"leRoletypeRefkey": "1",
+			"accountIdpk": "1",
+			"roleActivationDate": null,
+			"roleDeactivationDate": null,
+			"deactivationReasonRefkey": null,
+			"agreementTypeRefkey": null,
+			"agreementTypeDescription": "test",
+			 "vehicleDO":       {
+			"vinNumber": "MH12LSKDHJFDLDKFHJ",
+			"chassisNumber": "121242834792387498327494",
+			"make": "HONDA",
+			"model": "CITY",
+			"year": "1984",
+			"interiorColor": null,
+			"exteriorColor": null,
+			"registrationNumber": null,
+			"countryOfRegistrationRefkey": "356",
+			"insuranceIssuedBy": null,
+			"insuranceIssuedDate": null,
+			"insuranceExpiryDate": null
+      }
+      }],
+      "lePropertyAssocDOList":       [{
+			"propertyIdpk": null,
+			"legalentityIdpk": null,
+			"propertyLeReltypeRefkey": "1",
+			"description": null,
+			"propertyDO":       {
+			"propertyName": "Test",
+			"addressIdpk": "123213"
+      }
+      },
+      {
+			"propertyIdpk": null,
+			"legalentityIdpk": null,
+			"propertyLeReltypeRefkey": "1",
+			"description": null,
+			"propertyDO":       {
+			"propertyName": "Test",
+			"addressIdpk": "123213"
+      }
+      },
+      {
+			"propertyIdpk": null,
+			"legalentityIdpk": null,
+			"propertyLeReltypeRefkey": "1",
+			"description": null,
+			"propertyDO":       {
+			"propertyName": "Test",
+			"addressIdpk": "123213"
+      }
+      }],
+      "miscellaneousInfoDOList":       [{
+			"name1": "1",
+			"value1": "1",
+			"name2": "2",
+			"value2": "2"
+  },
+  {
+			"name1": "1",
+			"value1": "1",
+			"name2": "2",
+			"value2": "2"
+  },
+  {
+			"name1": "1",
+			"value1": "1",
+			"name2": "2",
+			"value2": "2"
+  }]
+		
+     
+	}
+}
+}

@@ -1,0 +1,26 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "createRefMatchScoreBase"
+	},
+	"txnPayload": {
+			 "refMatchScoreDO":        {
+			
+			"matchEntityObjectName": "PERSON",
+			"matchAttrPattern": "YYNYNYYN",
+			"matchResultRefkey": "1",
+			"matchProposedActionRefkey": "1",
+			"matchAttrPatternDescr": "NAME BLOCK,KYC,GENDER,DOB,ADDRESS,PHONE"
+      }
+		
+	}
+
+}

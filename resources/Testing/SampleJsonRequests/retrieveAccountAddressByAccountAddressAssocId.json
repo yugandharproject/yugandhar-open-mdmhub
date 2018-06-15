@@ -1,0 +1,12 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveAccountAddressByAccountAddressAssocId"
+   },
+   "txnPayload": {"accountAddressAssocDO":    {
+      "idPk":  "71277630-471c-4069-a9e0-ee983b705faf"
+   }}
+}

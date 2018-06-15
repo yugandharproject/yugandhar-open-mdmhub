@@ -1,0 +1,13 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "retrieveLeAccountLeAccountAssocId"
+   },
+   "txnPayload": {"leAccountAssocDO":    {
+      "idPk": "bb8073fd-52f4-4d67-9297-723270f0960d"
+      
+   }}
+}

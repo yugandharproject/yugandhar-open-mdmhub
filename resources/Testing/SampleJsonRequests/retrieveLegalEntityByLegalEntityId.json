@@ -1,0 +1,24 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "SURESH",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+	  "transactionServiceName": "retrieveLegalEntityByLegalEntityId"
+	},
+	"txnPayload": {
+			 			
+      	 "legalentityDO":       {
+			"idPk": "77776663666777799dg",
+			"inquiryLevel": "106",
+			"accountInquiryLevel":"103"
+
+	}
+}
+}
+	

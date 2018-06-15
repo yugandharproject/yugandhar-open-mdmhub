@@ -1,0 +1,17 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "findAllLeAccountByLegalEntityId"
+   },
+   "txnPayload": {
+   	 "paginationIndexOfCurrentSlice": 0,
+      "paginationPageSize": 25,
+      "leAccountAssocDO":    {
+      "legalentityIdpk": "77776663666777799bl",
+      "accountInquiryLevel":"103"
+      
+   }}
+}
