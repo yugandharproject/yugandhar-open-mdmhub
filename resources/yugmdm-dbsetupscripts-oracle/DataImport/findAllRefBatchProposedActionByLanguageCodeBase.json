@@ -1,0 +1,18 @@
+{
+	"txnHeader": {
+		"requesterLanguage": "1",
+		"userName": "Rakesh9",
+		"userRole": "admin9",
+		"txnMessageId": "12312311115999",
+		"transactionServiceName": "findAllRefBatchProposedActionByLanguageCodeBase"
+	},
+	"txnPayload": {
+		"paginationIndexOfCurrentSlice": 0,
+		"paginationPageSize": 25, 
+			"refBatchProposedActionDO":        {
+		"configLanguageCodeKey": "1"
+      }
+		
+	}
+	
+}

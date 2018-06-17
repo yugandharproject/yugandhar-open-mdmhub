@@ -1,0 +1,13 @@
+{
+   "txnHeader":    {
+      "requesterLanguage": "1",
+      "userName": "admin",
+      "userRole": "admin",
+      "txnMessageId": "1234567890123",
+      "transactionServiceName": "findAuthUserRoleAssocByBusinessKeyBase"
+   },
+   "txnPayload": {"authUserRoleAssocDO":    {
+      "authUserRegistryIdpk": "103d98d2-b558-405b-9574-b6bdffa82bd5",
+      "authRolesRegistryIdpk": "7d96d881-257b-4862-b82a-cc517b0a6891"
+   }}
+}

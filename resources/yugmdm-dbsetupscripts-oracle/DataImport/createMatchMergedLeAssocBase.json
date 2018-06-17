@@ -1,0 +1,34 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createMatchMergedLeAssocBase"
+	},
+	"txnPayload": {
+			 "matchMergedLeAssocDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"survivorLegalentityIdpk": "1",
+			"mergedLegalentityIdpk": "2",
+			"mergeReasonRefkey": "1",
+			"comments": "Auto Merged"
+      }
+		
+	}
+	
+}

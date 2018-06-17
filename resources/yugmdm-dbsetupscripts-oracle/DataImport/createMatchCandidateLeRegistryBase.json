@@ -1,0 +1,29 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createMatchCandidateLeRegistryBase"
+	},
+	"txnPayload": {
+			 "matchCandidateLeRegistryDO":       {
+			"legalentityIdpk": "1",
+			"candidateLegalentityidpk": "2",
+			"matchPattern": "YYYY",
+			"matchProposedActionRefkey": "1",
+			"matchActionstatusRefkey": "1",
+			"matchPercentageDescription": "80"
+      }
+		
+	}
+	
+}

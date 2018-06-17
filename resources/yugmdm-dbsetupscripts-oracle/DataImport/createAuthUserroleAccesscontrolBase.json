@@ -1,0 +1,28 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createAuthUserroleAccesscontrolBase"
+	},
+	"txnPayload": {
+			 "authUserroleAccesscontrolDO":        {
+
+			"profileType": "ROLE",
+			"authUserRoleRegistryIdpk": "ff142ad4-33d8-4827-a094-e7506c732536",
+			"configTxnRegistryIdpk": "492",
+			"description": "USER access control"
+      }
+		
+	}
+	
+}

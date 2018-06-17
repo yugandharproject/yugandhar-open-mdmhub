@@ -1,0 +1,38 @@
+{
+	"txnHeader": {
+	 "requesterLanguage": "1",
+      "requesterLocale": null,
+      "userName": "admin",
+      "userRole": "admin",
+      "accessToken": null,
+      "txnCorrelationId": null,
+      "txnMessageId": "1234567890123",
+      "requestOriginSource": null,
+      "requesterSystem": null,
+      "paginationStartIndex": null,
+      "paginationEndIndex": null,
+      "paginationTotalResultCount": null,
+	  "transactionServiceName": "createBatchEntityToProcessBase"
+	},
+	"txnPayload": {
+			 "batchEntityToProcessDO":       {
+			"idPk": null,
+			"version": null,
+			"createdTs": null,
+			"deletedTs": null,
+			"updatedTs": null,
+			"updatedByUser": null,
+			"updatedByTxnId": null,
+			"entityObjectTypeRefkey": "1",
+			"entityIdpk": "12312321",
+			"batchProposedActionRefkey": "1",
+			"batchActionStatusRefkey": "1",
+			"processAfterTimestamp": null,
+			"processBeforeTimestamp": null,
+			"entryMadeBySubsystemName": "MATCHFRAMEWORK",
+			"comments": "test"
+      }
+		
+	}
+	
+}
