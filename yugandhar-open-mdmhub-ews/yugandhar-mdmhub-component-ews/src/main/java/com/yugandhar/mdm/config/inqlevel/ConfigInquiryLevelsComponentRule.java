@@ -24,7 +24,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute persist validation method for ConfigInquiryLevelsComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj
 	*/
 	public void prevalidateConfigInquiryLevelsCompPersit(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -34,7 +34,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute merge validation method for ConfigInquiryLevelsComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void PrevalidateConfigInquiryLevelsCompMerge(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -44,7 +44,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute findbyId validation method for ConfigInquiryLevelsComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void prevalidateConfigInquiryLevelsCompFindById(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -55,7 +55,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute findByBusinessKey validation method for ConfigInquiryLevelsComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void preValidateConfigInquiryLevelsfindAllByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -66,7 +66,8 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute rule for persist in ConfigInquiryLevelsComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param reqConfigInquiryLevelsDO 
+	*@param txnTransferObj
 	*/
 	public void preExecuteConfigInquiryLevelsCompPersist(ConfigInquiryLevelsDO reqConfigInquiryLevelsDO,
 			TxnTransferObj txnTransferObj) {
@@ -78,7 +79,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute rule for persist in ConfigInquiryLevelsComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void postExecuteConfigInquiryLevelsCompPersit(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -89,7 +90,9 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute rule for merge in ConfigInquiryLevelsComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param reqConfigInquiryLevelsDO 
+	*@param dbimageConfigInquiryLevelsDO 
+	*@param txnTransferObj 
 	*/
 	public void preExecuteConfigInquiryLevelsCompMerge(ConfigInquiryLevelsDO reqConfigInquiryLevelsDO,
 			ConfigInquiryLevelsDO dbimageConfigInquiryLevelsDO, TxnTransferObj txnTransferObj) {
@@ -101,7 +104,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute rule for merge in ConfigInquiryLevelsComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void postExecuteConfigInquiryLevelsCompMerge(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -112,7 +115,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute rule for findbyId in ConfigInquiryLevelsComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void postExecuteConfigInquiryLevelsCompFindById(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -123,7 +126,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute rule for findByBusinessKey in ConfigInquiryLevelsComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void preExecuteConfigInquiryLevelsfindAllByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -134,7 +137,7 @@ public class ConfigInquiryLevelsComponentRule {
 	*Pre execute rule for findByBusinessKey in ConfigInquiryLevelsComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	*@param txnTransferObj 
 	*/
 	public void postExecuteConfigInquiryLevelsfindAllByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub

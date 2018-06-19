@@ -36,7 +36,6 @@ import com.yugandhar.mdm.keygen.YugandharKeygenerator;
 *@author Yugandhar
 *@version 1.0
 *@since 1.0
-*@see Documentation
 */
 
 @Component
@@ -489,9 +488,9 @@ public class ConfigErrorcodeRegistryComponent {
 	/**
 	* Execute the query using JPA Repository 
 	*@since 1.0
-	*@param  String configLanguageCodeKey
-	*@param String key 
-	*@param String filter
+	*@param  configLanguageCodeKey config language code key
+	*@param errorCode error code
+	*@param filter filter value ACTIVE, INACTIVE or ALL
 	*@return  ConfigErrorcodeRegistryDO returns the populated ConfigErrorcodeRegistryDO object
 	*/
 	@CacheResult(cacheName = "CONFIGERRORCODEREGISTRY_BUSKEY")

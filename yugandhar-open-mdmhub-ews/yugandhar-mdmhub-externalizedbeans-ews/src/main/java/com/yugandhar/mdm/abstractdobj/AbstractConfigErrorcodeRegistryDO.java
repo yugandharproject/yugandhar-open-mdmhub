@@ -19,7 +19,7 @@ import com.yugandhar.mdm.misc.dobj.PrimaryKeyDO;
 *@author Yugandhar
 *@version 1.0
 *@since 1.0
-*@see com.yugandhar.mdm.config.errorcoderegistry.ConfigErrorcodeRegistryDO
+*@see com.yugandhar.mdm.extern.dobj.ConfigErrorcodeRegistryDO
 */
 
 @MappedSuperclass

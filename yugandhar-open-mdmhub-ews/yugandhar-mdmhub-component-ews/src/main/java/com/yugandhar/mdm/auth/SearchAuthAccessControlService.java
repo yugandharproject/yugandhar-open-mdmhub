@@ -32,7 +32,7 @@ import com.yugandhar.mdm.extern.dobj.SearchAuthAccessControlDO;
  * @author Yugandhar
  * @version 1.0
  * @since 1.0
- * @see Documentation find the Auth users based on userName or roleName
+ *  find the Auth users based on userName or roleName
  *      Mandatory object is searchAuthAccessControlDO Mandatory parameters
  *      searchAuthAccessControlDO.rolename or userName. If userName present -
  *      then return the results by userName only. If userName and roleName

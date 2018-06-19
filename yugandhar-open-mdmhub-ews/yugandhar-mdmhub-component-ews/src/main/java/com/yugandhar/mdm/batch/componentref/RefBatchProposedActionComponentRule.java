@@ -24,7 +24,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute persist validation method for RefBatchProposedActionComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void prevalidateRefBatchProposedActionCompPersit(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -34,7 +34,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute merge validation method for RefBatchProposedActionComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void PrevalidateRefBatchProposedActionCompMerge(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -44,7 +44,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute findbyId validation method for RefBatchProposedActionComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void prevalidateRefBatchProposedActionCompFindById(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -55,7 +55,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute findByBusinessKey validation method for RefBatchProposedActionComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void preValidateRefBatchProposedActionfindByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -66,7 +66,8 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute rule for persist in RefBatchProposedActionComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param reqRefBatchProposedActionDO
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void preExecuteRefBatchProposedActionCompPersist(RefBatchProposedActionDO reqRefBatchProposedActionDO,
 			TxnTransferObj txnTransferObj) {
@@ -78,7 +79,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute rule for persist in RefBatchProposedActionComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void postExecuteRefBatchProposedActionCompPersit(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -89,7 +90,9 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute rule for merge in RefBatchProposedActionComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param reqRefBatchProposedActionDO
+	* @param dbimageRefBatchProposedActionDO
+	* @param reqRefBatchProposedActionDO txnTransferObj
 	*/
 	public void preExecuteRefBatchProposedActionCompMerge(RefBatchProposedActionDO reqRefBatchProposedActionDO,
 			RefBatchProposedActionDO dbimageRefBatchProposedActionDO, TxnTransferObj txnTransferObj) {
@@ -101,7 +104,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute rule for merge in RefBatchProposedActionComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void postExecuteRefBatchProposedActionCompMerge(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -112,7 +115,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute rule for findbyId in RefBatchProposedActionComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void postExecuteRefBatchProposedActionCompFindById(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -123,7 +126,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute rule for findByBusinessKey in RefBatchProposedActionComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void preExecuteRefBatchProposedActionfindByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -134,7 +137,7 @@ public class RefBatchProposedActionComponentRule {
 	*Pre execute rule for findByBusinessKey in RefBatchProposedActionComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void postExecuteRefBatchProposedActionfindByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub

@@ -24,7 +24,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute persist validation method for RefInactivationReasonComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void prevalidateRefInactivationReasonCompPersit(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -34,7 +34,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute merge validation method for RefInactivationReasonComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void PrevalidateRefInactivationReasonCompMerge(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -44,7 +44,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute findbyId validation method for RefInactivationReasonComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void prevalidateRefInactivationReasonCompFindById(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -55,7 +55,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute findByBusinessKey validation method for RefInactivationReasonComp to validate mandatory attributes etc
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void preValidateRefInactivationReasonfindByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -66,7 +66,8 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute rule for persist in RefInactivationReasonComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param reqRefInactivationReasonDO  
+	* @param txnTransferObj transaction transfer object
 	*/
 	public void preExecuteRefInactivationReasonCompPersist(RefInactivationReasonDO reqRefInactivationReasonDO,
 			TxnTransferObj txnTransferObj) {
@@ -78,7 +79,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute rule for persist in RefInactivationReasonComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void postExecuteRefInactivationReasonCompPersit(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -89,7 +90,9 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute rule for merge in RefInactivationReasonComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param reqRefInactivationReasonDO 
+	* @param dbimageRefInactivationReasonDO
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void preExecuteRefInactivationReasonCompMerge(RefInactivationReasonDO reqRefInactivationReasonDO,
 			RefInactivationReasonDO dbimageRefInactivationReasonDO, TxnTransferObj txnTransferObj) {
@@ -101,7 +104,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute rule for merge in RefInactivationReasonComp
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void postExecuteRefInactivationReasonCompMerge(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -112,7 +115,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute rule for findbyId in RefInactivationReasonComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void postExecuteRefInactivationReasonCompFindById(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -123,7 +126,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute rule for findByBusinessKey in RefInactivationReasonComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void preExecuteRefInactivationReasonfindByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub
@@ -134,7 +137,7 @@ public class RefInactivationReasonComponentRule {
 	*Pre execute rule for findByBusinessKey in RefInactivationReasonComp 
 	* This method is modularized in respective rule class
 	* Use Aspect Oriented Programming (AOP) based Yugandhar Rule to override / extend the default OOTB validation
-	*@throws YugandharCommonException 
+	* @param txnTransferObj transaction transfer object 
 	*/
 	public void postExecuteRefInactivationReasonfindByBusinessKey(TxnTransferObj txnTransferObj) {
 		// TODO Auto-generated method stub

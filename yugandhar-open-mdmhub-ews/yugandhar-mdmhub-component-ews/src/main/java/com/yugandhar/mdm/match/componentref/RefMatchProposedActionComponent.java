@@ -44,7 +44,7 @@ import com.yugandhar.mdm.keygen.YugandharKeygenerator;
  * @author Yugandhar
  * @version 1.0
  * @since 1.0
- * @see Documentation
+ * 
  */
 
 @Scope(value = "prototype")
@@ -608,12 +608,9 @@ public class RefMatchProposedActionComponent {
 	 * Execute the query using JPA Repository
 	 * 
 	 * @since 1.0
-	 * @param String
-	 *            configLanguageCodeKey
-	 * @param String
-	 *            key
-	 * @param String
-	 *            filter
+	 * @param configLanguageCodeKey
+	 * @param key
+	 * @param filter
 	 * @return RefMatchProposedActionDO returns the populated RefMatchProposedActionDO object
 	 */
 	@CacheResult(cacheName = "REFMATCHPROPOSEDACTION_BUSKEY")

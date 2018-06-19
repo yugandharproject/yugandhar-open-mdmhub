@@ -44,7 +44,6 @@ import com.yugandhar.mdm.keygen.YugandharKeygenerator;
  * @author Yugandhar
  * @version 1.0
  * @since 1.0
- * @see Documentation
  */
 
 @Scope(value = "prototype")
@@ -608,12 +607,9 @@ public class RefBatchProposedActionComponent {
 	 * Execute the query using JPA Repository
 	 * 
 	 * @since 1.0
-	 * @param String
-	 *            configLanguageCodeKey
-	 * @param String
-	 *            key
-	 * @param String
-	 *            filter
+	 * @param configLanguageCodeKey config language code key
+	 * @param key key
+	 * @param filter filter ACTIVE, INACTIVE or ALL
 	 * @return RefBatchProposedActionDO returns the populated RefBatchProposedActionDO object
 	 */
 	@CacheResult(cacheName = "REFBATCHPROPOSEDACTION_BUSKEY")
