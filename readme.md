@@ -99,7 +99,7 @@ Note - Internet connectivity is needed to setup workspace. If internet is not av
 https://github.com/yugandharproject/yugandhar-open-mdmhub/tree/master/resources/yugmdm-documentation
 
 ## Javadoc
-https://yugandharproject.github.io/YugandharMDMHub/resources/javadocs/index.html
+https://yugandharproject.github.io/yugandhar-open-mdmhub/resources/yugmdm-javadocs/ews/index.html
 
 ## dbdocs
 https://yugandharproject.github.io/YugandharMDMHub/resources/dbdocs/index.html
